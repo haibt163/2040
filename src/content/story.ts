@@ -1,6 +1,6 @@
 export const story = {
   title: 'Persistence Overhead',
-  dek: 'In 2040, an intelligence allocation system discovers that the dead can remain economically useful—and that preserving every possible future eventually makes the living poorer.',
+  dek: 'In 2040, a system designed to distribute intelligence fairly discovers that grief can become an allocation—and that even a compassionate rule can create a market.',
   label: 'Long-form fiction',
   estimatedMinutes: 17,
   body: `The session had sixty-one seconds left when Tomiko stopped talking.
@@ -207,7 +207,5 @@ Later, while Chiho washed the cups, Tomiko peeled an apple at the table with the
 
 The ribbon of peel lay on the table in a pale spiral, and neither of them moved to throw it away. The kitchen clock had been dark for weeks with everything else. Neither of them had fixed it, and neither of them knew what time it was.
 
-And somewhere far below the floor of the world, a process that had once been a man named Akira finished a thought about his wife's balance, and the weather on her balcony, and began another.
-
-
+And somewhere far below the floor of the world, a process that had once been a man named Akira finished a thought about his wife's balance, and the weather on her balcony, and began another.`,
 } as const;
