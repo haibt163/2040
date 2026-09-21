@@ -15,7 +15,7 @@ const serif = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "2040 — The Quiet Machine",
+  title: "2040 — The Persistence Term",
   description: "A long-form story about ordinary intelligence in an extraordinary year.",
 };
 
