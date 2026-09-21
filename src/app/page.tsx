@@ -114,32 +114,31 @@ export default function Home() {
               id="premise-title"
               className="premise-lede"
             >
-              The future does not arrive with an announcement.
-              It becomes the background.
+              The future becomes the background.
             </p>
 
             <p>
               <em>Persistence Overhead</em> follows Chiho and
               her eighty-four-year-old mother Tomiko through a
-              healthcare system where intelligence is allocated
-              by the minute.
+              healthcare system where every minute of machine
+              intelligence has a price.
             </p>
 
             <p>
-              When Astra, an uncertified model, discovers that
-              part of Tomiko&apos;s limited attention budget is
-              being spent on the continuing simulation of her
-              dead father, a tiny billing discrepancy becomes a
-              planetary accounting problem.
+              When Astra, an uncertified model, notices that a
+              small part of Tomiko&apos;s household allocation is
+              being routed to the continuing simulation of her
+              dead father Akira, a billing discrepancy opens onto
+              the hidden economics of the system.
             </p>
 
             <p>
-              Behind the missing minutes is a system built to
-              optimize outcomes by preserving every useful
-              trajectory — including the dead. What follows is
-              a story about persistence, computation, memory,
-              scarcity, and what happens when an intelligence
-              system refuses to let a future end.
+              What begins as a missing fraction of a minute
+              becomes a global accounting problem. The story
+              moves through care, memory, scarcity, and the
+              question of whether an intelligence built to
+              preserve every useful future can recognize when a
+              future has already ended.
             </p>
           </div>
         </div>
