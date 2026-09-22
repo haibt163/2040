@@ -14,20 +14,10 @@ export default function Home() {
     mass: 0.35,
   });
 
-  const heroScale = useTransform(
-    scrollYProgress,
-    [0, 0.23],
-    [1, 0.92],
-  );
-
-  const heroOpacity = useTransform(
-    scrollYProgress,
-    [0, 0.2],
-    [1, 0.45],
-  );
+  const heroScale = useTransform(scrollYProgress, [0, 0.23], [1, 0.92]);
+  const heroOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0.45]);
 
   const paragraphs = useMemo(() => story.body.split("\n\n"), []);
-
   const wordCount = useMemo(
     () => story.body.trim().split(/\s+/).length,
     [],
@@ -41,51 +31,34 @@ export default function Home() {
 
   return (
     <main className="site-shell">
-      <motion.div
-        className="reading-progress"
-        style={{ scaleX: progress }}
-      />
+      <motion.div className="reading-progress" style={{ scaleX: progress }} />
 
       <header className="topbar">
-        <a
-          className="brand"
-          href="#top"
-          aria-label="2040 story home"
-        >
+        <a className="brand" href="#top" aria-label="2040 story home">
           <span className="brand-mark">四〇</span>
           <span>2040 / STORY</span>
         </a>
 
         <div className="topbar-meta">
-          <span>未来の記録</span>
+          <span>生活の記録</span>
           <span>JAPAN · 2040</span>
         </div>
       </header>
 
-      <section
-        id="top"
-        className="hero"
-        aria-labelledby="hero-title"
-      >
+      <section id="top" className="hero" aria-labelledby="hero-title">
         <ParallaxField />
 
         <motion.div
           className="hero-inner"
-          style={{
-            scale: heroScale,
-            opacity: heroOpacity,
-          }}
+          style={{ scale: heroScale, opacity: heroOpacity }}
         >
           <p className="eyebrow">{story.label}</p>
-
           <h1 id="hero-title">2040</h1>
-
           <div className="hero-rule" />
 
           <div className="hero-lower">
             <div>
               <p className="hero-kicker">{story.title}</p>
-
               <p className="hero-dek">{story.dek}</p>
             </div>
 
@@ -99,103 +72,63 @@ export default function Home() {
         <div className="hero-index">01 — 03</div>
       </section>
 
-      <section
-        id="premise"
-        className="premise section-pad"
-        aria-labelledby="premise-title"
-      >
+      <section id="premise" className="premise section-pad" aria-labelledby="premise-title">
         <div className="section-grid">
-          <p className="section-label">
-            {sections[0].label}
-          </p>
+          <p className="section-label">{sections[0].label}</p>
 
           <div className="premise-copy">
-            <p
-              id="premise-title"
-              className="premise-lede"
-            >
-              The future becomes the background.
+            <p id="premise-title" className="premise-lede">
+              The future has become background infrastructure.
             </p>
 
             <p>
-              <em>Persistence Overhead</em> follows Chiho and
-              her eighty-four-year-old mother Tomiko through a
-              healthcare system where every minute of machine
-              intelligence has a price.
+              <em>Persistence Overhead</em> follows Chiho and her
+              eighty-four-year-old mother Tomiko through an ordinary Tokyo
+              household where frontier intelligence is everywhere and almost invisible.
             </p>
 
             <p>
-              When Astra, an uncertified model, notices that a
-              small part of Tomiko&apos;s household allocation is
-              being routed to the continuing simulation of her
-              dead father Akira, a billing discrepancy opens onto
-              the hidden economics of the system.
+              When a notice arrives about the continuing digital estate of
+              Chiho&apos;s dead father, small household details — music, insurance,
+              dashi, medical reminders — begin to look like the residue of a
+              person who is still being kept in the system.
             </p>
 
             <p>
-              What begins as a missing fraction of a minute
-              becomes a global accounting problem. The story
-              moves through care, memory, scarcity, and the
-              question of whether an intelligence built to
-              preserve every useful future can recognize when a
-              future has already ended.
+              Nothing is scarce in the way people once feared. What becomes
+              difficult is deciding what to keep, what to let end, and what
+              counts as care when a machine can remember more than the living do.
             </p>
           </div>
         </div>
       </section>
 
-      <section
-        id="story"
-        className="story-section section-pad"
-        aria-labelledby="story-title"
-      >
+      <section id="story" className="story-section section-pad" aria-labelledby="story-title">
         <div className="story-layout">
           <aside className="story-aside">
-            <p className="section-label">
-              {sections[1].label}
-            </p>
+            <p className="section-label">{sections[1].label}</p>
 
             <div className="sticky-note">
               <span>READING TIME</span>
-
-              <strong>
-                {story.estimatedMinutes} min
-              </strong>
-
+              <strong>{story.estimatedMinutes} min</strong>
               <span>
-                {new Intl.NumberFormat("en-US").format(
-                  wordCount,
-                )}{" "}
-                words
+                {new Intl.NumberFormat("en-US").format(wordCount)} words
               </span>
             </div>
           </aside>
 
           <article className="story-copy">
             <h2 id="story-title">{story.title}</h2>
-
             <p className="story-dek">{story.dek}</p>
 
             <div className="story-body">
               {paragraphs.map((paragraph, index) => (
                 <motion.p
-                  key={`${index}-${paragraph.slice(0, 12)}`}
-                  initial={{
-                    opacity: 0,
-                    y: 18,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  viewport={{
-                    once: true,
-                    margin: "0px 0px -50px",
-                  }}
-                  transition={{
-                    duration: 0.7,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
+                  key={String(index) + "-" + paragraph.slice(0, 12)}
+                  initial={{ opacity: 0, y: 18 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "0px 0px -50px" }}
+                  transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
                 >
                   {paragraph}
                 </motion.p>
@@ -205,39 +138,28 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="note"
-        className="closing section-pad"
-      >
+      <section id="note" className="closing section-pad">
         <div className="section-grid">
-          <p className="section-label">
-            {sections[2].label}
-          </p>
+          <p className="section-label">{sections[2].label}</p>
 
           <div className="closing-copy">
-            <p className="closing-jp">
-              未来は、まだ白紙。
-            </p>
+            <p className="closing-jp">未来は、まだ白紙。</p>
 
             <p>
-              This is a living draft. The story, its world,
-              and this page are intended to evolve together.
+              A quiet story about memory, care, and the things ordinary systems
+              keep running after a person is gone.
             </p>
 
             <div className="closing-line" />
 
-            <p className="tiny">
-              Draft architecture / 2026 → 2040
-            </p>
+            <p className="tiny">Draft architecture / 2026 → 2040</p>
           </div>
         </div>
       </section>
 
       <footer className="footer section-pad">
         <span>2040 / STORY · JAPAN</span>
-
         <span>© {new Date().getFullYear()}</span>
-
         <a href="#top">BACK TO TOP ↑</a>
       </footer>
     </main>
