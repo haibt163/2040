@@ -16,13 +16,14 @@ const serif = Noto_Serif_JP({
 
 export const metadata: Metadata = {
   title: "2040 — Persistence Overhead",
-  description: "A long-form story about ordinary intelligence in an extraordinary year.",
+  description:
+    "Persistence Overhead — a quiet speculative story set in Tokyo in 2040, where frontier intelligence has become ordinary household infrastructure.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={`${sans.variable} ${serif.variable}`}>{children}</body>
+      <body className={sans.variable + " " + serif.variable}>{children}</body>
     </html>
   );
 }
