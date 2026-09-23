@@ -24,9 +24,8 @@ export default function Home() {
   );
 
   const sections = [
-    { id: "premise", label: "01 / PREMISE" },
-    { id: "story", label: "02 / STORY" },
-    { id: "note", label: "03 / NOTE" },
+    { id: "story", label: "01 / STORY" },
+    { id: "note", label: "02 / NOTE" },
   ];
 
   return (
@@ -69,44 +68,13 @@ export default function Home() {
           </div>
         </motion.div>
 
-        <div className="hero-index">01 — 03</div>
-      </section>
-
-      <section id="premise" className="premise section-pad" aria-labelledby="premise-title">
-        <div className="section-grid">
-          <p className="section-label">{sections[0].label}</p>
-
-          <div className="premise-copy">
-            <p id="premise-title" className="premise-lede">
-              The future has become background infrastructure.
-            </p>
-
-            <p>
-              <em>Persistence Overhead</em> follows Chiho and her
-              eighty-four-year-old mother Tomiko through an ordinary Tokyo
-              household where frontier intelligence is everywhere and almost invisible.
-            </p>
-
-            <p>
-              When a notice arrives about the continuing digital estate of
-              Chiho&apos;s dead father, small household details — music, insurance,
-              dashi, medical reminders — begin to look like the residue of a
-              person who is still being kept in the system.
-            </p>
-
-            <p>
-              Nothing is scarce in the way people once feared. What becomes
-              difficult is deciding what to keep, what to let end, and what
-              counts as care when a machine can remember more than the living do.
-            </p>
-          </div>
-        </div>
+        <div className="hero-index">01 — 02</div>
       </section>
 
       <section id="story" className="story-section section-pad" aria-labelledby="story-title">
         <div className="story-layout">
           <aside className="story-aside">
-            <p className="section-label">{sections[1].label}</p>
+            <p className="section-label">{sections[0].label}</p>
 
             <div className="sticky-note">
               <span>READING TIME</span>
@@ -118,8 +86,9 @@ export default function Home() {
           </aside>
 
           <article className="story-copy">
-            <h2 id="story-title">{story.title}</h2>
-            <p className="story-dek">{story.dek}</p>
+            <h2 id="story-title" className="sr-only">
+              {story.title}
+            </h2>
 
             <div className="story-body">
               {paragraphs.map((paragraph, index) => (
@@ -140,15 +109,10 @@ export default function Home() {
 
       <section id="note" className="closing section-pad">
         <div className="section-grid">
-          <p className="section-label">{sections[2].label}</p>
+          <p className="section-label">{sections[1].label}</p>
 
           <div className="closing-copy">
             <p className="closing-jp">未来は、まだ白紙。</p>
-
-            <p>
-              A quiet story about memory, care, and the things ordinary systems
-              keep running after a person is gone.
-            </p>
 
             <div className="closing-line" />
 
