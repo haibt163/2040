@@ -23,3 +23,5 @@ Build and maintain a premium long-form story landing page for a 2040 speculative
 9. When a dev server is started, use browser verification and check for console/runtime errors.
 10. Do not rewrite the manuscript for stylistic reasons unless the task explicitly concerns the story copy.
 11. Contributions are welcome: please fork the repository, create a sub-branch, and submit your revisions to 2040.md via pull request.
+12. The prompt command and original pack are in the GPU folder
+

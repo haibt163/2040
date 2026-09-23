@@ -23,4 +23,4 @@ Open http://localhost:3000.
 
 ## Contributions 
 
-Any contributins are welcome: please fork the repository, create a sub-branch, and submit your revisions to 2040.md via pull request.
+Any contributins are welcome: please fork the repository, create a sub-branch, and submit your revisions to 2040.md via pull request. The prompt command and original pack are in the GPU folder
