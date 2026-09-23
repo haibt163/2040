@@ -20,3 +20,7 @@ Open http://localhost:3000.
 - `AGENTS.md` — project engineering contract
 - `.omp/AGENTS.md` — OMP agent workflow
 - `RULES.md` — non-negotiable design and engineering guardrails
+
+## Contributions 
+
+Any contributins are welcome: please fork the repository, create a sub-branch, and submit your revisions to 2040.md via pull request.

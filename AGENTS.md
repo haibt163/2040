@@ -1,4 +1,4 @@
-# AGENTS.md — Story 2040
+# AGENTS.md — Story 2040 
 
 ## Mission
 Build and maintain a premium long-form story landing page for a 2040 speculative-fiction project. The page is the visual frame around the writing; the writing remains the primary product.
@@ -22,3 +22,4 @@ Build and maintain a premium long-form story landing page for a 2040 speculative
 8. Run `npm run lint` and `npm run build` before considering an implementation complete.
 9. When a dev server is started, use browser verification and check for console/runtime errors.
 10. Do not rewrite the manuscript for stylistic reasons unless the task explicitly concerns the story copy.
+11. Contributions are welcome: please fork the repository, create a sub-branch, and submit your revisions to 2040.md via pull request.
