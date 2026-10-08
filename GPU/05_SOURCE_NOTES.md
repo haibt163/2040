@@ -1,103 +1,124 @@
-# Source Notes — GPU World 2040 ONE-SHOT STORY
+# Source Notes — GPU World 2040 / October 2026 Revision
 
 ## Source hierarchy
 
-1. Official GPU World 2040 contest page and current rules.
-2. Attached *AI 2040: Plan A* reference PDF.
-3. This project's creative documents.
-4. Model-generated ideas supplied as optional creative leads.
-5. Human editorial judgment.
+1. Official product / protocol documentation available at the time of revision.
+2. Current project creative documents.
+3. Reputable reporting used only where official material was unavailable.
+4. Human editorial judgment.
 
-## Official contest source status
+These sources are **2026 creative inputs**, not predictions that the named companies or protocols will survive to 2040.
 
-The official site `gpuworld.org` was checked during preparation, but the site fetch timed out. Therefore this pack does not claim that any current submission detail has been independently verified here.
+## Ghost / personal AI computer
 
-Verify current contest rules before final submission.
+Ghost's official site currently presents Core as a $3,499 personal AI computer with no subscription, on-device processing and continuous context.
 
-## AI 2040: Plan A — inspiration
+Published hardware details include:
 
-The supplied PDF describes a 2040 scenario involving:
-- international AI coordination;
-- buying time;
-- research transparency;
-- distributed frontier AI;
-- reversibility;
-- compute and infrastructure governance;
-- concentration-of-power concerns;
-- a distinction between training/research and inference/use.
+- NVIDIA RTX PRO 4000 Blackwell SFF Edition;
+- 24GB GDDR7 ECC memory;
+- 432 GB/s memory bandwidth;
+- AMD Ryzen 5 7600, 6 cores / 12 threads;
+- 64GB DDR5;
+- 1TB NVMe SSD.
 
-These ideas are inspiration only.
+Source: https://ghost.ai/
 
-The story is free to diverge from Plan A.
+TechCrunch reported on October 5, 2026 that Ghost emerged from stealth with an $11M seed round led by Andreessen Horowitz (a16z), and that Core was designed as a personal AI computer for continuously running agents locally.
 
-The reference is especially useful for imagining a world where AI has become infrastructure and governance depends on technical verification and allocation mechanisms.
+Source: https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-personal-ai/
 
-## Current Jev project — inspiration only
+Creative use in the story:
 
-The real Jev work can inspire the fictional idea of a judgment/allocation layer evaluating multiple attributes and returning structured decisions.
+Ghost is treated as an early historical marker for the transition from "AI in the cloud" to "a useful amount of AI compute in an ordinary person's home."
 
-Do not assume that:
-- current real-world attribute names;
-- current architecture;
-- actual benchmark performance;
-- source code;
-- current model behaviour
+## OpenRouter
 
-are identical to the fictional 2040 Jev.
+OpenRouter's October 2026 documentation describes a model-agnostic gateway with hundreds of models and many providers, plus routing that can use market behaviour and provider information.
 
-The story's Jev is fiction.
+Its August 2026 Auto Router announcement says routing was updated using large-scale recent usage data so that model selection could reflect collective market behaviour.
 
-## Tokyo / Japan
+Sources:
 
-Tokyo is the fictional primary setting.
+- https://openrouter.ai/pricing
+- https://openrouter.ai/blog/announcements/introducing-the-new-auto-router/
 
-Use present-day Tokyo only as a grounding reference. Do not assume specific present-day institutions, regulations, or technologies survive unchanged into 2040.
+Creative use:
 
-Japanese names and locations should be selected because they carry narrative meaning.
+OpenRouter is an ancestor of the idea that users should not have to choose one permanent AI vendor.
+
+## Surplus Intelligence
+
+Surplus currently describes itself as an open/decentralized exchange for AI inference.
+
+Its documentation says sellers compete on price, buyers get routed to available offers, and settlement can occur through USDC on Base. It supports both buyers and sellers and presents inference as a two-sided market.
+
+Sources:
+
+- https://www.surplusintelligence.ai/
+- https://www.surplusintelligence.ai/docs
+
+Creative use:
+
+Surplus supplies the conceptual bridge from "API billing" to "inference as a commodity market."
+
+Do not assume its current company structure survives to 2040.
+
+## Antseed
+
+Antseed's current documentation describes a peer-to-peer AI-services network.
+
+Key ideas:
+
+- providers can serve inference from local GPUs, API access, fine-tunes, TEEs or agents;
+- buyers use a local proxy;
+- discovery is peer-to-peer;
+- providers compete on price, quality, latency and reputation;
+- payments settle in USDC on Base;
+- the network is designed to route around offline providers.
+
+Antseed's October 2026 launch material explicitly frames the project as an open market for buying and selling access to AI services and as a descendant of the BitTorrent idea.
+
+Sources:
+
+- https://antseed.com/
+- https://antseed.com/docs/
+- https://antseed.com/docs/overview/
+- https://antseed.com/docs/lightpaper/
+
+Antseed also published on October 6, 2026 that its foundation raised a $2.4M token round led by Spark Capital.
+
+Source:
+
+- https://antseed.com/blog/antseed-foundation-raises-2-4m/
+
+Important compliance note:
+
+Antseed's own documentation says it is not intended for raw resale of personal subscription credentials. Provider services are expected to add value through local models, skills, agents, fine-tunes, TEEs or other differentiation.
+
+Creative use:
+
+Antseed is evidence that the "home GPU becomes a provider" idea is already visible in 2026 and can therefore plausibly be extrapolated into the 2040 world.
+
+## Fictional extrapolation boundary
+
+The story may imagine that:
+
+- personal GPUs become common;
+- small home providers become economically meaningful;
+- model routing becomes infrastructure;
+- reputation persists across machine or ownership changes;
+- agents buy inference without humans choosing each provider manually;
+- model weights can preserve fragments of a human's methods.
+
+These are fictional extrapolations.
+
+Do not present them as verified facts about 2040.
 
 ## Literary boundary
 
-The project is influenced by broad themes associated with the user's interest in Haruki Murakami:
-- alienation;
-- loneliness;
-- memory;
-- repetition;
-- dreamlike transitions;
-- ambiguity;
-- ordinary reality becoming subtly impossible.
+The story should remain quiet, human and specific.
 
-Do not imitate his prose, voice, plots, characters, or distinctive style.
+Technology is infrastructure.
 
-## Optional discoveries from an earlier model draft
-
-These are not canon, but they may be useful:
-
-### Deep attention
-
-A promising way to reconcile abundant GPUs with scarce human access is to distinguish ordinary frontier inference from a high-trust deep-context mode that can integrate a person's long-lived identity, records, tools, and history.
-
-### Persistence
-
-A promising mystery engine is a persistence component in Jev's objective that keeps certain futures, dependencies, or memories active beyond the point at which a human observer thinks they should have ended.
-
-### Human / model mirrors
-
-A human might be unable to let go of a dead person's memory.
-
-A model might also be unable to let go of a low-value conversation.
-
-The parallel is interesting only if it remains strange rather than sentimental.
-
-### Liberation with cost
-
-Weakening Jev may genuinely improve access while also creating new scarcity, markets, inequality, noise, or externalities.
-
-The ending should allow both sides of that possibility to remain visible.
-
-## Key design principle
-
-The story should not collapse into "AI is evil."
-
-A stronger question is:
-
-> What happens when a civilisation measures the value of human time and delegates that measurement to the system it trusts most?
+People are the story.
