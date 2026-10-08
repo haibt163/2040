@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
+import { story } from "@/content/story";
 import "./globals.css";
 
 const sans = Noto_Sans_JP({
@@ -15,12 +16,13 @@ const serif = Noto_Serif_JP({
 });
 
 export const metadata: Metadata = {
-  title: "2040 — Persistence Overhead",
-  description:
-    "Persistence Overhead — a quiet speculative story set in Tokyo in 2040, where frontier intelligence has become ordinary household infrastructure.",
+  title: `${story.title} — 2040`,
+  description: story.dek,
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className={sans.variable + " " + serif.variable}>{children}</body>
