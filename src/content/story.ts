@@ -1,8 +1,8 @@
 export const story = {
   title: 'West Window',
-  dek: 'In Tokyo, 2040, a computer a repairman built for his own use is still selling its idle nights to strangers under a name he never meant to leave behind. When the provider registry asks who will answer for it now, his daughter starts looking for the one customer who writes to it at two in the morning.',
+    dek: 'In Tokyo, 2040, a computer a repairman built for his own use is still selling its idle nights to strangers under a name he never meant to leave behind. When the provider registry asks who will answer for it now, his daughter has to decide whether a useful machine can inherit a human reputation.',
   label: 'Long-form fiction',
-  estimatedMinutes: 19,
+  estimatedMinutes: 20,
   body: `WEST WINDOW
 
 On Sunday mornings the fan in the spare room went up a tone around seven and stayed there until the machine had finished whatever it did when nobody was using it. Nao had stopped hearing it years ago. Her mother had not.
