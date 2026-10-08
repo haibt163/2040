@@ -1,6 +1,6 @@
 export const story = {
   title: 'West Window',
-    dek: 'In Tokyo, 2040, a computer a repairman built for his own use is still selling its idle nights to strangers under a name he never meant to leave behind. When the provider registry asks who will answer for it now, his daughter has to decide whether a useful machine can inherit a human reputation.',
+    dek: 'In Tokyo, 2040, a computer built by a repairman for his own use is still selling its idle nights to strangers under a name he never meant to leave behind. When the provider registry asks who will answer for it now, his daughter has to decide whether a useful machine can inherit a human reputation.',
   label: 'Long-form fiction',
   estimatedMinutes: 20,
   body: `WEST WINDOW
