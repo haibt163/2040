@@ -263,25 +263,35 @@ a {
   transform: rotate(-7deg);
 }
 
-.hero-ring {
+.hero-window-frame {
   position: absolute;
-  border: 1px solid rgba(235, 232, 223, 0.09);
-  border-radius: 50%;
+  top: 13%;
+  right: -8%;
+  width: min(47vw, 720px);
+  height: min(57vh, 610px);
+  border: 1px solid rgba(235, 232, 223, 0.08);
+  opacity: 0.68;
 }
 
-.hero-ring-one {
-  width: min(42vw, 650px);
-  height: min(42vw, 650px);
-  right: -10vw;
-  top: 6vh;
+.hero-window-frame::before,
+.hero-window-frame::after {
+  content: "";
+  position: absolute;
+  background: rgba(235, 232, 223, 0.055);
 }
 
-.hero-ring-two {
-  width: min(24vw, 360px);
-  height: min(24vw, 360px);
-  left: -8vw;
-  bottom: 8vh;
-  opacity: 0.58;
+.hero-window-frame::before {
+  top: 0;
+  bottom: 0;
+  left: 48%;
+  width: 1px;
+}
+
+.hero-window-frame::after {
+  left: 0;
+  right: 0;
+  top: 54%;
+  height: 1px;
 }
 
 .hero-glyph {
@@ -335,21 +345,6 @@ a {
 .hero-coordinate-two {
   right: 10%;
   bottom: 11%;
-}
-
-.hero-horizon {
-  position: absolute;
-  left: -10%;
-  right: -10%;
-  bottom: 22%;
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(235, 232, 223, 0.06) 20%,
-    rgba(235, 232, 223, 0.06) 80%,
-    transparent
-  );
 }
 
 /* Manuscript */
@@ -600,28 +595,21 @@ a {
     display: none;
   }
 
-  .hero-ring-one {
-    width: 70vw;
-    height: 70vw;
-    right: -30vw;
-    top: 4vh;
-  }
-
-  .hero-ring-two {
-    width: 44vw;
-    height: 44vw;
-    left: -22vw;
-    bottom: 9vh;
-  }
-
   .hero-scanline {
     left: 0;
     right: -10%;
     top: 57%;
   }
 
+  .hero-window-frame {
+    width: 78vw;
+    height: 56vh;
+    right: -38vw;
+    top: 14%;
+  }
+
   .hero-glyph {
-    top: 18%;
+    top: 16%;
     right: 8%;
   }
 
@@ -695,9 +683,8 @@ a {
 
   .hero-grid,
   .hero-architecture,
-  .hero-ring,
-  .hero-glyph,
-  .hero-coordinate {
+  .hero-window-frame,
+  .hero-glyph {
     transform: none !important;
   }
 
