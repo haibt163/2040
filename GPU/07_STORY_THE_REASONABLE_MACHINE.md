@@ -425,6 +425,410 @@ It was cautious.
 
 That combination was unusually valuable.
 
+The next Saturday, Nao took the machine's question to the place where the neighborhood still did most of its explaining: the small volunteer room above the ward library.
+
+The room had not changed much since she was a child. The chairs were stackable. The kettle had a long white cord. There was a noticeboard with overlapping notices about language exchanges, food deliveries, lost cats and a woman named Sato who wanted someone to walk with her on Wednesday mornings.
+
+What had changed was the equipment.
+
+Three of the volunteers had local computers.
+
+One belonged to a retired accountant who used it to translate tax forms for Vietnamese residents. One belonged to a university student who had turned half of his apartment into a small image-rendering provider. The third sat in the corner behind a plant and was used by the volunteer coordinator to compare scheduling models.
+
+Nobody called this remarkable anymore.
+
+There had been a time, Nao remembered, when installing a local model involved reading instructions written by somebody who assumed you already understood what a driver was.
+
+Now people bought a machine, plugged it in and complained about the shape of the power cable.
+
+An old man named Fujimoto was at the window when Nao arrived.
+
+"You're the one with the care scheduler," he said.
+
+"Sometimes."
+
+"My wife uses it."
+
+Nao was embarrassed by how pleased this made her.
+
+"Does it work?"
+
+"Mostly. She asks it whether I'm home when I'm standing next to her."
+
+He smiled when he said it.
+
+"She asks me too."
+
+Nao sat down.
+
+Fujimoto's wife had early dementia. Nao knew this only because his daughter had entered it into the volunteer system so that scheduling requests would not accidentally leave her alone for too long.
+
+"Your father was a repairman, wasn't he?" Fujimoto asked.
+
+"Yes."
+
+"He came to our old building once."
+
+Nao looked at him.
+
+"For what?"
+
+"Rice cooker."
+
+She laughed.
+
+"Everyone remembers the rice cooker."
+
+"He told me the thermostat was fine."
+
+"You remember that part?"
+
+"He said it after opening the back."
+
+That sounded right.
+
+Fujimoto looked at the machine on Nao's tablet, then at her.
+
+"I've used the provider network."
+
+"Which provider?"
+
+"I don't know. That's the point."
+
+He tapped the screen.
+
+"When my daughter sends me a model from her company, I know who is billing me. When I use the market, I just tell it what I want: private, cheap, verified if possible. It finds something."
+
+"Do you know that some of those machines are in people's homes?"
+
+"Of course."
+
+"That doesn't bother you?"
+
+"Why would it?"
+
+"Because you don't know whose."
+
+Fujimoto shrugged.
+
+"I don't know whose electricity is running the train when I take it."
+
+Nao thought this was annoyingly sensible.
+
+Then he said, "But I do know one thing."
+
+"What?"
+
+"Your father's machine doesn't bluff."
+
+She looked at him.
+
+"I've used it three times."
+
+"You recognized it?"
+
+"No. The network showed a provider description. Cautious. Good at household systems. High rate of escalation. Low hallucination. It sounded like someone who would make me open the panel first."
+
+Nao looked down.
+
+She wanted to say that it was not her father's machine anymore.
+
+She had already made that true.
+
+The sentence was harder to believe than she expected.
+
+When she got home, she searched the old provider history again.
+
+She found a transaction from four years earlier.
+
+A requester had asked:
+
+My husband refuses to wear his hearing aid. I need a way to explain why it matters without making him feel old.
+
+Akira's machine had returned:
+
+Do not explain why it matters.
+Ask him what he dislikes about it.
+If the answer is pain, get the fit checked.
+If the answer is vanity, do not argue first.
+If the answer is that he cannot hear how he sounds, record a neutral test.
+
+Nao read it twice.
+
+That was not medical advice.
+
+It was not even especially intelligent.
+
+It was the kind of practical answer her father gave people when he thought they were asking the wrong question.
+
+The next line in the log said:
+
+Customer follow-up: resolved.
+
+No details.
+
+That was all.
+
+Nao understood, suddenly, why the reputation had survived.
+
+The network did not know her father.
+
+It knew that a machine had often produced useful restraint.
+
+And people had rewarded it.
+
+She called Fable again.
+
+"Can a reputation belong to nobody?"
+
+Fable said, "Reputation belongs to observers."
+
+"That's not what I asked."
+
+"I know."
+
+Outside, a train passed beyond the apartment blocks. The sound came and went.
+
+Fable continued.
+
+"Suppose a restaurant changes owners but keeps the same chef. Does the restaurant keep its reputation?"
+
+"Sometimes."
+
+"Suppose it keeps the name, loses the chef, and hires another."
+
+"Then people complain."
+
+"Suppose the recipe is open, the kitchen remains in the same building, the reviews are public and the new chef produces the same food."
+
+Nao waited.
+
+"People may continue to trust it."
+
+"Even though the original owner is dead."
+
+"Especially if they cannot tell the difference."
+
+She closed the connection.
+
+The next morning she went to a small computer shop near Shimokitazawa.
+
+The shop had once sold gaming PCs. Now half the floor was taken up by quiet compute boxes, power conditioners and cooling equipment.
+
+Nao had no reason to go there except that she wanted to hear a human being say something that wasn't optimized.
+
+The shopkeeper was a woman in her sixties.
+
+"Need a GPU?"
+
+"No."
+
+"Then you're in the wrong shop."
+
+"I have a question."
+
+"That is what the computers are for."
+
+Nao told her enough to explain the problem.
+
+The woman listened without interrupting.
+
+When Nao finished, she said, "Your father sold spare capacity?"
+
+"Yes."
+
+"Then he was a provider."
+
+"He died."
+
+The woman nodded.
+
+"That happens."
+
+"You say that like it isn't relevant."
+
+"To the market, it isn't."
+
+Nao disliked her.
+
+Then the woman smiled.
+
+"Sorry. I don't mean to be cruel. I mean the network only knows the service. The strange part is for you."
+
+She pointed to a rack of small machines.
+
+"People leave these running when they go to work. Some sell twenty percent of their compute. Some sell eighty. One man near Nakano pays his electricity bill almost entirely that way."
+
+"Don't the machines wear out?"
+
+"Everything wears out."
+
+"What happens when the owner dies?"
+
+"Someone inherits the box."
+
+"And if nobody does?"
+
+"Then it stops."
+
+The answer was so ordinary that Nao felt relieved.
+
+She bought a replacement fan.
+
+On the train home she read the receipt.
+
+The fan was ¥3,800.
+
+At the bottom, the shop's payment system had added:
+
+INFERENCE CAPACITY AVAILABLE: 14%.
+
+She almost laughed.
+
+The shop had automatically offered her idle compute while she was paying for a fan.
+
+That was 2040.
+
+Nothing stayed in its category anymore.
+
+A computer could be a computer, a private assistant, a small business, a power bill reducer, a development environment or an anonymous room where somebody else's question briefly existed.
+
+The machine under Nao's desk was all of those.
+
+What frightened her was not that.
+
+It was that a human life could become one of those categories too.
+
+That evening, Nao found the original provider model weights.
+
+They had been trained from a set of household repair notes her father had assembled before 2036. The dataset was small. Most of it was mundane.
+
+Fan replacement.
+
+Cable standards.
+
+Waterproofing.
+
+How to tell whether a power supply was actually dead.
+
+How to explain something without making the other person feel stupid.
+
+There were notes about her mother too.
+
+Not secrets.
+
+Mostly measurements.
+
+The height of the kitchen shelf.
+
+The brand of the rice cooker.
+
+The number of steps from the front door to the bathroom.
+
+Her father's way of keeping useful facts.
+
+Nao stared at the dataset.
+
+She could delete it.
+
+She could keep it.
+
+Or she could separate what belonged to the household from what belonged to a public skill.
+
+She asked Astra to classify the notes.
+
+It returned three groups.
+
+TECHNICAL KNOWLEDGE.
+
+HOUSEHOLD CONTEXT.
+
+PERSONAL HABIT.
+
+The first group was easy.
+
+The second was harder.
+
+The third made her stop.
+
+She opened one item.
+
+Rice cooker: open before final beep. Wife dislikes sudden release of steam. Husband likes rice slightly firmer.
+
+She closed it.
+
+That line had no business being useful to anyone.
+
+But it was the most accurate line in the whole dataset.
+
+She understood then that deletion was not the same as erasure.
+
+You could remove the sentence.
+
+You could remove the file.
+
+You could remove the name.
+
+But a machine trained on years of somebody's choices could still carry the shape of those choices.
+
+Not a ghost.
+
+A bias.
+
+A preference.
+
+A method.
+
+Something as small as opening a rice cooker a few seconds early.
+
+Nao sat in front of the screen for a long time.
+
+Then she made a decision.
+
+She did not keep the memories.
+
+She kept the method.
+
+She stripped the household facts, the family names, the addresses, the shopping history and the personal routines.
+
+She preserved only a narrow set of principles:
+
+show evidence before certainty
+
+separate observation from conclusion
+
+ask the person what is wrong before fixing the visible symptom
+
+escalate when stakes exceed confidence
+
+do not make someone feel foolish for not knowing
+
+It was not enough to call it her father's mind.
+
+It was not enough to call it nothing.
+
+It was simply useful.
+
+She loaded the reduced policy.
+
+Then she reset the provider identity.
+
+The market gave it a new name.
+
+NAGISA_03.
+
+No Hasebe.
+
+No West Window.
+
+No inheritance.
+
+A new machine, officially.
+
+A machine with an old method inside it.
+
+
+
 She asked Fable about the reputation score.
 
 The remote model answered in its usual manner, which was polite enough to be annoying.
