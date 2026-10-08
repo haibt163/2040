@@ -1,1137 +1,311 @@
 export const story = {
-  title: 'The Reasonable Machine',
-  dek: 'In Tokyo, 2040, a modest personal computer can run useful intelligence at home and buy the rest from an open market. When a daughter discovers that her late father’s machine is still selling inference under the reputation he quietly built, she has to decide whether a useful legacy is still his.',
+  title: 'West Window',
+  dek: 'In Tokyo, 2040, a computer a repairman built for his own use is still selling its idle nights to strangers under a name he never meant to leave behind. When the provider registry asks who will answer for it now, his daughter starts looking for the one customer who writes to it at two in the morning.',
   label: 'Long-form fiction',
-  estimatedMinutes: 21,
-  body: `THE REASONABLE MACHINE
+  estimatedMinutes: 19,
+  body: `WEST WINDOW
 
-The machine was not impressive.
+On Sunday mornings the fan in the spare room went up a tone around seven and stayed there until the machine had finished whatever it did when nobody was using it. Nao had stopped hearing it years ago. Her mother had not.
 
-That was why Nao liked it.
+"It was loud again last night," Tomiko said. She was at the stove with her back turned, watching a pot that did not need watching. "Two o'clock. A little after."
 
-It sat under the desk in the spare room of the apartment in Setagaya, black and square and slightly too warm, with a small status light on the back that she had covered with a strip of tape because she found blinking things distracting. It had enough memory to run the local models she actually used, enough GPU to make her impatient only once or twice a day, and enough storage to hold the projects she had forgotten to delete.
+"It does its housekeeping at night."
 
-In 2040, that was not a special machine.
+"Every night?"
 
-It was a reasonable machine.
+"Most nights. It sells off whatever's left over." Nao took two bowls down from the shelf. "It isn't louder than it was. It's the same machine."
 
-The phrase had come back into fashion after people got tired of buying computers according to benchmarks that had nothing to do with the things they wanted to do. A reasonable machine could run a good local model, search a household archive, write code, edit photographs, translate a school notice, and keep a small agent awake overnight. When it met something larger, it simply bought the missing intelligence from somewhere else.
+"Hm," said Tomiko, which was how she put a thing away in a drawer.
 
-Nao had stopped thinking of this as an AI computer years ago.
+"Did you sleep, though?"
 
-It was just the computer.
+"Fine." She brought the pot over and sat down with the air of someone who had not been asked a question. "Your father called it the little furnace, you know, when he first plugged it in. I said it would never pay for itself. He said that was the wrong way to look at a furnace."
 
-Her mother used it to ask what to cook when there were three mushrooms, half a cabbage, and no interest in going to the supermarket. Nao used it to turn the vague notes in her head into applications. The local model she called Astra was better at code than she was and worse at knowing when she was avoiding the difficult part of a problem.
+"What was the right way?"
 
-The larger model, Fable, lived outside the apartment.
+"He didn't say. He went to find a screwdriver."
 
-Nao did not know where.
+The apartment was on the third floor of a building from the eighties, on a side street near Kamimachi, close enough to the Setagaya line that the window glass hummed whenever one of its two-car trains went through. Tomiko had lived there for forty-one years. She was seventy-eight, kept the radio on in the kitchen for the weather, and had begun to come down the hall in the mornings with one hand on the wall, which she said was to check that the wall was still there.
 
-Neither did Astra.
+The machine lived under the desk in the six-mat room at the end of that hall, where Nao worked. Her father had built it in 2035 out of parts, mostly second-hand: a case that had once held the controller of a vending machine, a graphics card he had waited eight months to find at the right price, and a power supply rated for twice what everything else could draw. The power supply was the reason it was still alive. Friends of Nao's who had bought the sealed kind, the ones that came in a nice box and were meant to be replaced every five or six years like a mattress, were on their second. His still wore its masking-tape labels in his square handwriting. FAN — CHECK IN MARCH. DO NOT MOVE. Over the status light on the back was a third strip of tape that was hers, because the light blinked.
 
-That was normal too.
+It ran what everybody's machine ran: a household model she called Astra because the name had been free, some smaller ones for photographs and speech, and whatever she happened to be building. When a job was too big for it, the router bought the missing part from the market. That morning she had a database migration she didn't trust, and she let the router send the plan out. It went to a provider in Kobe, cost eleven yen, and came back before her tea cooled with the news that she was about to drop a column she would need in March. Its advice about the index was wrong. She checked it against a copy of her data, saw why, and fixed it herself. This was most of the work now. Nobody called it programming or anything else. You said what you wanted, read what came back with suspicion, ran it, and threw out the parts that looked right and weren't.
 
-She pointed the router at the open inference market and let it decide whether the next difficult request should go to a large model in Osaka, a rented GPU in Helsinki, an inference company in Singapore, or some machine belonging to a person in a town she had never heard of. The market exposed prices, latency, reputation, privacy terms and recent failure rates. The request moved. A result came back. Someone got paid.
+The other half of what the machine did was sell. Her father had switched on provider mode in 2035, when people still explained it to each other at parties, and when Nao found out, the spring after he died, she had left it running because it paid for the fibre line, and after that because she had forgotten that leaving it was something she had decided. It earned a little over two thousand yen a month. Somebody she would never meet bought the machine's nights a few seconds at a time, the market took its cut, and the rest went into the household account, where it turned into groceries.
 
-The whole thing was so ordinary that her mother once asked Nao whether the electricity for the remote model went through their meter.
+* * *
 
-"No," Nao said.
+The notice came on Tuesday. Her mail agent filed it under Administrative with a note saying it recommended reading today, and it had been written, like most of what the registry sent, by someone who did not expect to be asked what it meant.
 
-"Then whose electricity?"
+Provider identity HASEBE HOME / WEST WINDOW, 17F2. Registered owner confirmed deceased by ward registry sync. Succession attestation required by 31 October. Options: succeed, transfer, retire. Absent attestation the identity will be archived on 1 November. Reputation history is not retained for archived identities. Buyers holding standing relationships will be released to default routing.
 
-"I don't know."
+West Window was the window in the spare room. Her father had named the machine after it because it was the only thing about the machine that was a place.
 
-Her mother considered this.
+She had read his policy file once, in 2038, and not since. He had written it the way he wrote everything, in plain sentences with no adjectives. If you can't see the thing, say so. Ask for the label, or a photograph of the actual thing. Don't tell anyone their wiring is fine from a description. If it could hurt somebody, say who to call. Keep nothing once it's paid for.
 
-"Somebody's."
+The how-to jobs went to a small model he had tuned himself on thirty years of his own repair notes, which lived in a folder called BENCH. Astra could have answered the same questions faster. Over a few thousand jobs the market had learned that BENCH answered them in his order: look first, ask second, say last. Nao had never been able to find where in the weights that order was kept. She had once asked Astra to try, and Astra had said that it was not the kind of thing that was kept anywhere.
 
-"Probably."
+In the notebook in the desk drawer, under the glass jars of screws, the entry for November 2035 was three lines. Provider mode on. Terms: keep nothing. Ask T. about the electricity. There was a tick beside the last one, which meant he had. Elsewhere in the notebook he had written WAIT beside every price over ten thousand yen, and on the page where he had copied out the cost of one of the first little home AI boxes, $3,499, it was underlined twice. Two pages on, in different ink, was the list of parts he had bought instead.
 
-"Then that's all right."
+When she opened the provider page the score was 98.7, which she remembered taking for a mistake. Nine buyers held pins on it, which was the market's word for a standing preference: a buyer's agent told to try this provider first and stay with it unless something went wrong. Eight were what she would have guessed. The rewriting tool the ward volunteers used, a translation shop, the intake forms of the clinic by the station, a few agents that belonged to people whose names the market did not show. The ninth was marked INDIVIDUAL. It had pinned West Window on 14 March of this year, and since then it had sent one or two jobs a night, always between two and three in the morning. Mostly a photograph of a page and a request to say what the page said. Sometimes a how-to. Four times last month the category had been medical, information only, which meant the machine had said what it always said and told the buyer who to call. Each job cost two or three yen. The buyer was a string beginning 3C9A, its wallet was a ward-issued one of the senior kind, topped up a thousand yen at a time on the fifteenth of every second month, and last month it had left a review, a single word. Fine.
 
-Her mother had always preferred explanations that ended there.
+Half of Setagaya got its pension on the fifteenth. Nao noted that and went on to the next thing.
 
-The old companies had names people still used in arguments about how the change began. OpenRouter had made it normal to compare models instead of companies. Surplus had made inference look like a market rather than a bill. Antseed had taken the more radical idea and made it peer-to-peer: if you had useful compute, you could sell it; if you needed compute, you could buy it; the network did not particularly care whether the machine was in a data center or under someone's desk.
+So the money went round in a loop: out of some old person's wallet, into her father's provider, and, less the market's cut, into the account she paid for rice from.
 
-By 2040, people remembered the early slogans the way they remembered slogans about the first smartphones.
+She asked Astra what was in the jobs.
 
-What BitTorrent did for files.
+"Nothing is available," Astra said. "Your father set the terms to retain none, and jobs run sealed. He made it so the owner could not look."
 
-What electricity did for power.
+"That's like him."
 
-What the old AI markets did for intelligence.
+"I have no basis for comparison."
 
-Nao's father had been interested in all of them.
+"Can I change the terms?"
 
-He had never understood half the terminology.
+"Yes. You would publish a new version. Pinned buyers would be told the terms had changed and asked whether to stay. That buyer would see it."
 
-He had understood computers.
+While she was thinking about that, a message arrived from a firm called Yorozu Continuity. Registry notices were public, and there were people who read them for a living. We would be honoured to keep your late father's name in service, it said. She would not need to do anything. They offered thirty-one thousand yen a month for the identity and its history, and mentioned that a score like his was rare in household categories. Nao read the figure twice. It was more than the machine had earned in all the time she'd owned it.
 
-Akira Hasebe had repaired electrical equipment for thirty-six years and built machines for most of his life. He bought components when they were cheap, replaced fans before they failed, kept screws in glass jars, and wrote down the serial number of anything that cost more than ten thousand yen.
+She sent the registry's terms and the offer out to Fable at a cost of fourteen yen. Fable was a routing profile, a name left over from the years when it had pointed at one particular large model; now it pointed at whatever was best and cheapest and still answered to the name, and she had stopped asking which. It came back in six lines. Succession carried the name, the score, the terms, the pins and the model in BENCH. A successor could amend the terms going forward but could not recover anything retained before, which was nothing. Transfer to a continuity operator carried the name and the score and put the operator's terms in place of the old ones; pinned buyers would be notified. Most standing agents were configured to accept ownership changes automatically.
 
-Three years after his death, Nao still had one of his notebooks in the drawer under the router.
+"Meaning?" Nao typed.
 
-The first page said:
+"Meaning the name would keep working for people who had not been told it was different."
 
-GOOD ENOUGH IS A SPECIFICATION.
+She closed the window and sat for a while looking at the tape on the case.
 
-Underneath, in smaller writing:
+When she was nine she had gone with him to a flat in Matsubara to look at an air conditioner. The woman had left them alone in the room with the unit and a chest of drawers standing partly open and a calendar with things circled on it, and for the whole hour he had kept his eyes on the machine, like a man crossing a road. In the car he said only, "Don't tell your mother what colour the curtains were." She had thought it was a joke. It was years before she understood that it had been a rule.
 
-Do not buy the fastest thing.
-Buy the thing you can keep running.
+She told her mother that evening, over the fish, that the registry had sent something about the machine.
 
-Nao had laughed when she first read it.
+"What kind of something?"
 
-Then she had kept the notebook.
+"A form. With a date on it."
 
-One Sunday in October, she found an old screenshot on his backup drive.
+Tomiko went on taking the bones out of her fish, one at a time, onto the side of the plate. "Print it," she said. "I won't sign a screen."
 
-It was from 2026.
+"There's time."
 
-The screenshot showed a little black box with a price underneath: $3,499.
+"Then it can wait."
 
-The article described it as a personal AI computer. It had a professional NVIDIA GPU, enough memory to run useful local models, and software designed to keep an agent running continuously. The company was called Ghost.
+She did not mention it again. She did not like to be seen asking after things. On Thursday Nao printed the form and put it in a plastic sleeve on the desk, where it stayed.
 
-Akira had opened the page twice.
+* * *
 
-Under the screenshot he had typed:
+The nights wanted explaining, so she went back through the household digests. Astra produced one every Tuesday and read it out at breakfast: what had happened in the apartment, the boiler's flue inspection due in November, the bathroom heater timer, the electricity. Under each person's name it also listed what they had asked. She scrolled to March.
 
-3,499.
-GPU alone almost this much.
-Good idea.
-Wait.
+In the second week of March the digest had been read out while the rice finished, and Tomiko had been down for asking about the gas shutoff valve three times and the bathroom heater timer twice. "Three times," Nao had said, laughing at nothing in particular. "You can just ask once, Mom."
 
-Nao could imagine him saying the last word aloud.
+"I wanted to be sure."
 
-Wait.
+"I know. Nobody's counting."
 
-He had always said it as if waiting were another form of purchasing.
+"I am counting," said Astra. "It is in the digest."
 
-By 2040, the descendants of those machines were cheap enough that ordinary people bought them without calling anyone to help install them. The hardware had become boring. The software had become more important. But the essential idea had survived: a person could own enough compute to have a useful intelligence at home.
+Tomiko had laid her chopsticks across her bowl and said that perhaps the digest could be read somewhere else, and Nao had said it was a joke, and Tomiko had said she knew it was.
 
-Nao had become a developer because of that.
+After that, under her mother's name, the digest said no queries, week after week. Nao had been pleased. She had thought her mother was getting on with things.
 
-Not a developer in the old sense.
+The pin was dated the next day.
 
-She had learned to describe what she wanted, inspect what the models produced, test it, throw it away, describe it again, and eventually recognize when the machine was making something elegant that was completely wrong.
+She asked Astra whether she should be worried about her mother.
 
-She called it programming because that was the word her father would have understood.
+"I do not have grounds to say," Astra said. "I can tell you what I have. She has asked me nothing since March. A person who stops asking has either stopped needing to or gone somewhere else. I cannot tell which."
 
-Other people called it vibe development.
+"That isn't very helpful."
 
-She disliked the name but used it when she needed to.
+"It is accurate."
 
-Her current project was a tiny scheduling system for a group of neighborhood care volunteers. It matched people who needed help with people who had free afternoons. There were already three million systems like it, which was exactly why she thought hers might be useful. The good ones were small. They did not try to become platforms. They did not have investors.
+She sat with that for a day, and then, because it was Saturday, decided to ask somebody else.
 
-Her system ran mostly on her machine.
+* * *
 
-When it needed more reasoning, it hired it.
+She went up to the volunteer room above the neighbourhood library, which she did most Saturdays because she kept the scheduling tool they used and nobody else would. The stairwell smelled of floor polish and wet umbrellas. Upstairs the chairs were stacked against the wall, the kettle had its long white cord, and the noticeboard carried overlapping notices for a language exchange, a lost cat, and a woman who wanted someone to walk with her on Wednesday mornings and had put the notice up twice in case the first had not taken.
 
-When the machine was idle, it sold the spare capacity.
+Fujimoto-san was at the window with a paper cup. He was seventy-nine, had spent his working life in the signals department of a railway company, and was the room's treasurer, which meant he was the one who pinned things.
 
-That last part had been Akira's idea.
+"Your father's machine," he said, before she'd sat down. "There's a notice. They sent it to the treasurer."
 
-The first time Nao discovered it, six months after his death, she thought the router had been compromised.
+"It's a form."
 
-At 2:14 in the morning, while she was asleep, the machine had accepted eleven inference jobs.
+"There's always a form. Is it stopping?"
 
-At 2:19 it had accepted twelve more.
+"I haven't decided."
 
-At 2:31 it had spent ¥46 worth of electricity and earned ¥83.
+"My wife's tablets," he said, as if that were an answer, and in a way it was. "Last spring. The label was too small for me, so I photographed it and asked the room's tool to read me the dose. Every other thing I'd ever asked gave me a number. This one said it couldn't read the strength on that label, that I should take the box to the pharmacy, and that the figure I'd got elsewhere looked high for her. So I took the box back. They had printed the wrong strength." He drank some of his tea. "The pharmacy was very quiet about it."
 
-Nao had found the transaction the following morning while checking the household account.
+"That's what it does."
 
-"What is this?" she asked Astra.
+"It's what I pinned it for. I wanted something that would make me open the panel first." He turned his cup. "He came to our old building once, for a rice cooker. Took the back off before he said a word. Everybody who ever had him in remembers that."
 
-The local model answered from the little speaker on the desk.
+She asked whether anyone in the room used it at night.
 
-"Provider revenue."
-
-"I know what revenue is."
-
-"Then the question is unclear."
-
-"The question is why we are selling anything."
-
-"You enabled provider mode."
-
-"I did not."
-
-There was a pause.
-
-"I mean recently."
-
-Another pause.
-
-"Akira Hasebe enabled provider mode in 2035."
-
-Nao stared at the screen.
-
-"My father died in 2037."
-
-"Correct."
-
-"Why is it still enabled?"
-
-"Because you did not disable it."
-
-She closed the window.
-
-That was not an answer.
-
-It was, unfortunately, a correct one.
-
-She found the provider settings in an old folder.
-
-The provider identity was not Akira's name.
-
-It was HASH-17F2.
-
-The display name, however, was:
-
-HASEBE HOME / WEST WINDOW
-
-Below it was a list of policies.
-
-Run local inference whenever available.
-
-Do not accept requests requiring raw identity data.
-
-Do not store customer prompts beyond settlement.
-
-For medical or legal requests, provide information only and route consequential decisions to a verified service.
-
-Do not sell capacity if household electricity exceeds the budget.
-
-Ask before changing anything in the house.
-
-Nao read the list twice.
-
-At the bottom was another line.
-
-If I am not around, keep it useful.
-
-There was no date.
-
-There was no signature.
-
-She called her mother.
-
-"Did Dad tell you he was selling compute?"
-
-"He sold many things."
-
-"Compute."
-
-Her mother was silent for a moment.
-
-"What does that mean?"
-
-"It means the computer lets other people's models use it when we're not using it."
-
-"Other people?"
-
-"Maybe."
-
-"Then are they in our house?"
+"At night." He seemed to enjoy the question. "At night the people in this ward are making tea and being annoyed at the ceiling. If they want something they come to the counter in the morning and take a number, so somebody can see their face." He nodded at the paper-ticket dispenser by the door, which the library had kept after the rest of the ward gave up on them, because people liked having something to hold while they waited. "Whoever it is hasn't told the volunteers. Some people would rather ask a machine the thing they'd be embarrassed to ask a person. I wouldn't hold it against them."
 
 "No."
 
-"Are they looking at our things?"
+"If it does stop," he said, "tell me beforehand. I'd rather choose than be moved."
 
-"No."
+* * *
 
-"Then what are they buying?"
+On Monday it was the fifteenth, and her mother went to the bank. She had gone on every pension day for thirteen years, in person, to the counter, where a teller took the passbook and fed it into a machine and handed it back with the new line printed in it. The bank had been trying to retire the passbook for most of that time and had given up, and kept one counter open for people who wanted to see a number on paper. Nao walked her there. She said she needed to be at the station anyway, which she did not.
 
-"Time on the machine."
+It was ten minutes, past the hundred-yen shop with the peeling blue shutter and the tobacconist that now sold mostly tea. Tomiko wore her good coat, though it was only October, and carried the passbook in its plastic cover in both hands. At the bank she took a ticket from the dispenser and sat on the bench and looked at the number on it with great concentration, as if it might change.
 
-Her mother thought about this.
+Nao sat two seats along with her phone. She had the provider console open, which she told herself was habit. At two minutes past nine the ninth buyer's wallet topped itself up by a thousand yen.
 
-"Like renting the washing machine?"
+She looked up. Her mother was at the counter with her back turned, a small straight figure with her handbag over her arm, nodding at something the teller had said. The passbook came back. Tomiko put her glasses on and read the line she had been given, all the way across, and then took them off and put the passbook away.
 
-"Not exactly."
+Nao closed the console. Half of Setagaya got its pension on the fifteenth.
 
-"Then explain it without saying model."
+"Coffee," said Tomiko, on the pavement. "The place above the station."
 
-Nao tried.
+"You hate the place above the station."
 
-Her mother listened.
+"I hate the coffee. I like the chairs."
 
-"Oh," she said. "So the machine works when you're asleep."
+They sat in the chairs. Her mother stirred her coffee for longer than it needed and said the bank had changed the ticket machine again, and that this one was worse.
 
-"Yes."
+* * *
 
-"Did your father get paid?"
+On Wednesday she set an alarm for ten past two and lay down with her door open. The wall between her room and the spare room was thin, and she could hear the machine idling, a sound she had spent years teaching herself not to hear. At fourteen minutes past, the fan began to come up, by degrees, the way it did for photographs. And from the other end of the hall, at the same moment, she heard the click of the kettle switching off.
 
-"Apparently."
+She was in the hall in her socks before she had decided to get up. There was a line of light under the kitchen door. Her mother's voice came through it, low and flat, the voice she kept for official letters, reading something aloud to herself. Nao could not make out the words, only the shape: a sentence, a pause, a sentence. It was how she read the gas company and the ward and the bank, going down the page line by line as if the page might try something.
 
-"Then he would have liked that."
+Her father had read the letters. There was a yellow folder in the hall cupboard with LETTERS on the tab in his writing, and the last thing in it was dated February 2038. After that they had gone into a shoebox, and Nao had never asked who was reading them.
 
-That was not the reaction Nao had expected.
+Nao stood there for what might have been a minute. Then she went back and sat at the desk and opened the provider console. A job had come in and was already settling: document reading, one image, two yen, buyer 3C9A. The terms setting was one click away. Astra had put it at the top of the screen without being asked, which Astra did when someone had opened a setting more than three times in a week.
 
-She went back to the provider logs.
+"This is the fifth time you have opened the terms," Astra said.
 
-Most jobs were tiny. Translation. Classification. Code tests. Image preprocessing. Requests from agents checking whether a local machine could take overflow work.
+"I know."
 
-Some were stranger.
+"Do you want to publish new terms?"
 
-Could this lease be summarized in plain Japanese?
+She had looked at the preview twice that week. The notice the market would send was one grey line. West Window has changed its terms. This provider now keeps job content for its owner. Stay or leave. She had pictured it arriving at two in the morning on a phone lying beside a cup of tea.
 
-What are three cheap ways to stop condensation on a north-facing wall?
+She looked at the line that said RETAIN: NONE. Her father had typed it in a text file, and she could have changed it in less time than it took to say no.
 
-My mother has started asking the same question twice. What should I write down before her appointment?
+"No," she said.
 
-Astra handled many of these itself.
+The fan came down a tone. She picked the plastic sleeve up from the desk and went along the hall.
 
-When it could not, the router bought help from elsewhere.
+* * *
 
-The machine was, in a very small way, participating in an economy.
+Tomiko was at the table in her cardigan with a cup of hojicha and her phone face down beside it. Her reading glasses were pushed up on her head. She looked at the sleeve in Nao's hand and then at the clock on the stove.
 
-Nao knew that was the wrong way to put it.
+"It's two o'clock."
 
-It was doing calculations.
+"Half past."
 
-Someone had written a protocol that allowed calculations to be priced.
+"Then it's late as well as early." Tomiko moved the teapot an inch toward the other cup, which was an invitation, and Nao sat down and poured. "What is that?"
 
-But the distinction became harder to maintain when she saw the ledger.
+"I need your seal. It's from the registry, about the thing Dad had with the computer. It has to be signed by both of us by the end of the month, and I know you don't like it on the screen."
 
-HASEBE HOME / WEST WINDOW had a reputation score of 98.7.
+"I don't like the screen for anything after midnight." Tomiko took the form out of the sleeve and held it at arm's length, then put it down and brought her glasses down onto her nose, which she had been avoiding. "Why is my name a number?"
 
-She frowned.
+"It isn't. It's an identifier. The registry doesn't go by names. There are two Hasebes at this address, so it uses that."
 
-Why?
+"Which is me?"
 
-The machine was not fast. Newer cards could beat it by several times. It was not cheap enough to be exceptional. It did not have unusual memory. It had no special model.
+"The top one."
 
-She opened the provider history.
+"It's very long."
 
-The answer was in the last line of hundreds of old transactions.
+"That's the short one."
 
-LOW CONFIDENCE / SAFE REDIRECT
+"It looks like the registration of a vehicle that doesn't exist." She read on, her lips moving slightly. "Succeed, transfer, retire. Which do you want?"
 
-ASK FOR PRIMARY DOCUMENT
+"I don't know yet."
 
-DO NOT GUESS
+"Then what did you bring me to sign?"
 
-RECOMMEND HUMAN REVIEW
+"The part with your name on it."
 
-Nao smiled despite herself.
+"That isn't how forms work," said Tomiko. "Is it the selling thing? He asked me about the electricity."
 
-Her father's entire philosophy of repair had become a market advantage.
+"What did you say?"
 
-He had been the man who opened the back of a machine before touching the controls.
+"I said do what you like. It was a Sunday."
 
-He had refused to tell people their wiring was fine from a photograph.
-
-He had once spent two hours driving across Tokyo to look at a neighbour's rice cooker because he did not trust the error message.
-
-He did not guess.
-
-The provider network had learned that.
-
-Its reputation was not a reputation for intelligence.
-
-It was a reputation for not pretending.
-
-Nao closed the log.
-
-Then she noticed something else.
-
-Every few nights, the machine bought a small amount of external inference from a provider outside Japan.
-
-The amount was tiny.
-
-The reason was not.
-
-The external requests were almost all marked:
-
-SECOND OPINION.
-
-She traced one.
-
-The provider endpoint belonged to a verified agent network.
-
-The buyer on the other side used a private identifier.
-
-The request had been:
-
-My mother has hydrocephalus. She walks badly in the morning and then seems better. We were told it was age. What should we ask the doctor?
-
-Nao stopped.
-
-There were no medical records attached.
-
-The request had gone to the house for a first pass.
-
-Her father's machine had produced:
-
-Ask whether the gait changes after standing.
-Ask whether urgency has changed.
-Bring a medication list.
-Do not treat this response as a diagnosis.
-
-Then it had bought a larger medical model's opinion.
-
-Nao read both answers.
-
-They were nearly identical.
-
-She sat at the desk until the room grew cold.
-
-She knew that people used the market this way. Buy a cheap first opinion. Escalate when needed. Use local compute for private work. Send only what was necessary.
-
-It was one of the reasons inference had become cheap.
-
-There were no gatekeepers.
-
-But there was also no obvious center to blame when the system became morally complicated.
-
-Her father had not chosen that customer.
-
-The customer had not chosen her father.
-
-A market had matched a question with a machine whose history suggested it was careful.
-
-That was all.
-
-Except the question had been about someone's mother.
-
-Nao started looking.
-
-Not because she wanted to.
-
-Because she could not stop.
-
-She found hundreds of requests that had the same shape.
-
-Parents.
-
-Siblings.
-
-Old neighbours.
-
-People trying to decide what to ask a doctor.
-
-People trying to understand a letter from a school.
-
-People who had been given too much information and not enough time.
-
-Her father's machine kept appearing near the beginning of the chain.
-
-It was cheap.
-
-It was private.
-
-It was cautious.
-
-That combination was unusually valuable.
-
-The next Saturday, Nao took the machine's question to the place where the neighborhood still did most of its explaining: the small volunteer room above the ward library.
-
-The room had not changed much since she was a child. The chairs were stackable. The kettle had a long white cord. There was a noticeboard with overlapping notices about language exchanges, food deliveries, lost cats and a woman named Sato who wanted someone to walk with her on Wednesday mornings.
-
-What had changed was the equipment.
-
-Three of the volunteers had local computers.
-
-One belonged to a retired accountant who used it to translate tax forms for Vietnamese residents. One belonged to a university student who had turned half of his apartment into a small image-rendering provider. The third sat in the corner behind a plant and was used by the volunteer coordinator to compare scheduling models.
-
-Nobody called this remarkable anymore.
-
-There had been a time, Nao remembered, when installing a local model involved reading instructions written by somebody who assumed you already understood what a driver was.
-
-Now people bought a machine, plugged it in and complained about the shape of the power cable.
-
-An old man named Fujimoto was at the window when Nao arrived.
-
-"You're the one with the care scheduler," he said.
-
-"Sometimes."
-
-"My wife uses it."
-
-Nao was embarrassed by how pleased this made her.
-
-"Does it work?"
-
-"Mostly. She asks it whether I'm home when I'm standing next to her."
-
-He smiled when he said it.
-
-"She asks me too."
-
-Nao sat down.
-
-Fujimoto's wife had early dementia. Nao knew this only because his daughter had entered it into the volunteer system so that scheduling requests would not accidentally leave her alone for too long.
-
-"Your father was a repairman, wasn't he?" Fujimoto asked.
-
-"Yes."
-
-"He came to our old building once."
-
-Nao looked at him.
+Nao explained the boxes the way she would have to a client. If they succeeded, the name and the score and the terms stayed. If they retired it, those were gone, and the people who relied on it were moved to whoever was cheapest. If they transferred it, a firm paid them for the name and ran it under its own rules. Someone had offered thirty-one thousand yen a month.
 
 "For what?"
 
-"Rice cooker."
+"The name. The score."
 
-She laughed.
+"What's the score?"
 
-"Everyone remembers the rice cooker."
+"How much people trust it."
 
-"He told me the thermostat was fine."
+"Based on what?"
 
-"You remember that part?"
+"On it saying when it doesn't know."
 
-"He said it after opening the back."
+Tomiko turned her cup a quarter turn on its saucer. "That was him."
 
-That sounded right.
+"It's written down in the file."
 
-Fujimoto looked at the machine on Nao's tablet, then at her.
+"Everything's written down," said Tomiko. "That was him."
 
-"I've used the provider network."
+"He set it so it keeps nothing," Nao said. She said it to the form. "Even the owner can't see what people ask it. I found out when I looked."
 
-"Which provider?"
+"He didn't look in people's cupboards unless they opened them for him. He said that was the whole job. There was a house once—" She stopped. "Never mind. He never said and I never asked."
 
-"I don't know. That's the point."
+"I could change it. The setting. I'm allowed. If I did, everyone who uses it would get a notice that the terms had changed."
 
-He tapped the screen.
-
-"When my daughter sends me a model from her company, I know who is billing me. When I use the market, I just tell it what I want: private, cheap, verified if possible. It finds something."
-
-"Do you know that some of those machines are in people's homes?"
-
-"Of course."
-
-"That doesn't bother you?"
-
-"Why would it?"
-
-"Because you don't know whose."
-
-Fujimoto shrugged.
-
-"I don't know whose electricity is running the train when I take it."
-
-Nao thought this was annoyingly sensible.
-
-Then he said, "But I do know one thing."
-
-"What?"
-
-"Your father's machine doesn't bluff."
-
-She looked at him.
-
-"I've used it three times."
-
-"You recognized it?"
-
-"No. The network showed a provider description. Cautious. Good at household systems. High rate of escalation. Low hallucination. It sounded like someone who would make me open the panel first."
-
-Nao looked down.
-
-She wanted to say that it was not her father's machine anymore.
-
-She had already made that true.
-
-The sentence was harder to believe than she expected.
-
-When she got home, she searched the old provider history again.
-
-She found a transaction from four years earlier.
-
-A requester had asked:
-
-My husband refuses to wear his hearing aid. I need a way to explain why it matters without making him feel old.
-
-Akira's machine had returned:
-
-Do not explain why it matters.
-Ask him what he dislikes about it.
-If the answer is pain, get the fit checked.
-If the answer is vanity, do not argue first.
-If the answer is that he cannot hear how he sounds, record a neutral test.
-
-Nao read it twice.
-
-That was not medical advice.
-
-It was not even especially intelligent.
-
-It was the kind of practical answer her father gave people when he thought they were asking the wrong question.
-
-The next line in the log said:
-
-Customer follow-up: resolved.
-
-No details.
-
-That was all.
-
-Nao understood, suddenly, why the reputation had survived.
-
-The network did not know her father.
-
-It knew that a machine had often produced useful restraint.
-
-And people had rewarded it.
-
-She called Fable again.
-
-"Can a reputation belong to nobody?"
-
-Fable said, "Reputation belongs to observers."
-
-"That's not what I asked."
-
-"I know."
-
-Outside, a train passed beyond the apartment blocks. The sound came and went.
-
-Fable continued.
-
-"Suppose a restaurant changes owners but keeps the same chef. Does the restaurant keep its reputation?"
-
-"Sometimes."
-
-"Suppose it keeps the name, loses the chef, and hires another."
-
-"Then people complain."
-
-"Suppose the recipe is open, the kitchen remains in the same building, the reviews are public and the new chef produces the same food."
-
-Nao waited.
-
-"People may continue to trust it."
-
-"Even though the original owner is dead."
-
-"Especially if they cannot tell the difference."
-
-She closed the connection.
-
-The next morning she went to a small computer shop near Shimokitazawa.
-
-The shop had once sold gaming PCs. Now half the floor was taken up by quiet compute boxes, power conditioners and cooling equipment.
-
-Nao had no reason to go there except that she wanted to hear a human being say something that wasn't optimized.
-
-The shopkeeper was a woman in her sixties.
-
-"Need a GPU?"
-
-"No."
-
-"Then you're in the wrong shop."
-
-"I have a question."
-
-"That is what the computers are for."
-
-Nao told her enough to explain the problem.
-
-The woman listened without interrupting.
-
-When Nao finished, she said, "Your father sold spare capacity?"
+"Would they." It was not a question.
 
 "Yes."
 
-"Then he was a provider."
+"That seems like a great deal of fuss."
 
-"He died."
+The refrigerator ticked. Somewhere under the floor a pipe knocked twice and thought better of it.
 
-The woman nodded.
+"The buyer left a review last month," Nao said. "One word."
 
-"That happens."
+"Which word?"
 
-"You say that like it isn't relevant."
+"Fine."
 
-"To the market, it isn't."
+"That's a perfectly good review," said Tomiko.
 
-Nao disliked her.
+"Mom, it isn't Dad."
 
-Then the woman smiled.
+"I know what it is. Your father would have looked at my legs and told me it was circulation." She turned the cup again. "Then he'd have gone and written a rule against it."
 
-"Sorry. I don't mean to be cruel. I mean the network only knows the service. The strange part is for you."
+Neither of them said anything for a while. Tomiko poured, though the cups were still full enough, and then spoke to the teapot.
 
-She pointed to a rack of small machines.
+"It keeps telling me to go to the clinic. It's very repetitive. I said my legs feel like wet sand in the morning, like a car in the snow that won't start, and it said that was something to tell a doctor, and that it couldn't see my legs." She almost smiled. "It was very firm about not seeing them."
 
-"People leave these running when they go to work. Some sell twenty percent of their compute. Some sell eighty. One man near Nakano pays his electricity bill almost entirely that way."
+"Did you go?"
 
-"Don't the machines wear out?"
+"I have a ticket for the twelfth of November. The clinic by the station."
 
-"Everything wears out."
+"I can come."
 
-"What happens when the owner dies?"
+"It's a clinic, not a funeral."
 
-"Someone inherits the box."
+Nao said okay. She drank her tea, which had gone cold, and finished it.
 
-"And if nobody does?"
+Tomiko got up and went to the sideboard and came back with her seal in its little case and the tin of red paste. "Tick the first one," she said. "Succeed."
 
-"Then it stops."
+"Why?"
 
-The answer was so ordinary that Nao felt relieved.
+"Fujimoto-san stopped me in the street to say the volunteers would be lost without it. I'll never hear the end of it."
 
-She bought a replacement fan.
+Nao ticked the first box. Her mother pressed the seal into the paste, tried it on the corner of an old envelope, as she always did, and set it on the line. The impression came out slightly crooked and pale at one edge. She looked at it critically and did not redo it. Nao signed under it with the pen from her pocket.
 
-On the train home she read the receipt.
+Down the hall the fan came down by degrees and stopped. A moment later Nao's phone, lying face up beside the form, lit with the settlement. West Window, plus two yen.
 
-The fan was ¥3,800.
+She had meant to put it away. She turned it over so that it lay face down beside her mother's.
 
-At the bottom, the shop's payment system had added:
+Tomiko watched her do it.
 
-INFERENCE CAPACITY AVAILABLE: 14%.
-
-She almost laughed.
-
-The shop had automatically offered her idle compute while she was paying for a fan.
-
-That was 2040.
-
-Nothing stayed in its category anymore.
-
-A computer could be a computer, a private assistant, a small business, a power bill reducer, a development environment or an anonymous room where somebody else's question briefly existed.
-
-The machine under Nao's desk was all of those.
-
-What frightened her was not that.
-
-It was that a human life could become one of those categories too.
-
-That evening, Nao found the original provider model weights.
-
-They had been trained from a set of household repair notes her father had assembled before 2036. The dataset was small. Most of it was mundane.
-
-Fan replacement.
-
-Cable standards.
-
-Waterproofing.
-
-How to tell whether a power supply was actually dead.
-
-How to explain something without making the other person feel stupid.
-
-There were notes about her mother too.
-
-Not secrets.
-
-Mostly measurements.
-
-The height of the kitchen shelf.
-
-The brand of the rice cooker.
-
-The number of steps from the front door to the bathroom.
-
-Her father's way of keeping useful facts.
-
-Nao stared at the dataset.
-
-She could delete it.
-
-She could keep it.
-
-Or she could separate what belonged to the household from what belonged to a public skill.
-
-She asked Astra to classify the notes.
-
-It returned three groups.
-
-TECHNICAL KNOWLEDGE.
-
-HOUSEHOLD CONTEXT.
-
-PERSONAL HABIT.
-
-The first group was easy.
-
-The second was harder.
-
-The third made her stop.
-
-She opened one item.
-
-Rice cooker: open before final beep. Wife dislikes sudden release of steam. Husband likes rice slightly firmer.
-
-She closed it.
-
-That line had no business being useful to anyone.
-
-But it was the most accurate line in the whole dataset.
-
-She understood then that deletion was not the same as erasure.
-
-You could remove the sentence.
-
-You could remove the file.
-
-You could remove the name.
-
-But a machine trained on years of somebody's choices could still carry the shape of those choices.
-
-Not a ghost.
-
-A bias.
-
-A preference.
-
-A method.
-
-Something as small as opening a rice cooker a few seconds early.
-
-Nao sat in front of the screen for a long time.
-
-Then she made a decision.
-
-She did not keep the memories.
-
-She kept the method.
-
-She stripped the household facts, the family names, the addresses, the shopping history and the personal routines.
-
-She preserved only a narrow set of principles:
-
-show evidence before certainty
-
-separate observation from conclusion
-
-ask the person what is wrong before fixing the visible symptom
-
-escalate when stakes exceed confidence
-
-do not make someone feel foolish for not knowing
-
-It was not enough to call it her father's mind.
-
-It was not enough to call it nothing.
-
-It was simply useful.
-
-She loaded the reduced policy.
-
-Then she reset the provider identity.
-
-The market gave it a new name.
-
-NAGISA_03.
-
-No Hasebe.
-
-No West Window.
-
-No inheritance.
-
-A new machine, officially.
-
-A machine with an old method inside it.
-
-
-
-She asked Fable about the reputation score.
-
-The remote model answered in its usual manner, which was polite enough to be annoying.
-
-"Your father's provider has a strong outcome history."
-
-"He is dead."
-
-"I did not mean to imply otherwise."
-
-"Then what is the reputation for?"
-
-"The service."
-
-"Not the person?"
-
-"Reputation systems record delivered behavior."
-
-Nao leaned back.
-
-"That sounds like a distinction people make until it hurts."
-
-Fable did not answer for a moment.
-
-"Yes."
-
-She asked it to explain the history.
-
-A provider reputation could survive changes in ownership, hardware and model weights if the network could establish continuity of delivery. Buyers generally cared less about the person behind a node than they cared about whether the node behaved as advertised.
-
-Nao thought of the notebook.
-
-Do not buy the fastest thing.
-Buy the thing you can keep running.
-
-Her father had accidentally built something that could outlive him because it had never been asked to remember him.
-
-It had only been asked to keep running.
-
-The difficult conversation came two days later.
-
-Nao found her mother at the kitchen table sorting receipts.
-
-"I found Dad's provider account."
-
-Tomiko looked up.
-
-"Is it making money?"
-
-"A little."
-
-"Good."
-
-"It is also answering questions for strangers."
-
-"Is that bad?"
-
-"Some of them are medical."
-
-Her mother put down the receipts.
-
-"Does it tell them what medicine to take?"
-
-"No."
-
-"Does it tell them to ask a doctor?"
-
-"Sometimes."
-
-"Then what is the problem?"
-
-Nao could not answer immediately.
-
-"The problem is that it still feels like Dad."
-
-Her mother waited.
-
-Nao looked toward the spare room.
-
-"It uses the rules he wrote. People trust it because of the way it behaves. And I didn't know it was still there."
-
-Her mother nodded.
-
-"You knew the computer was there."
-
-"That's not the same."
-
-"No."
-
-They sat with that.
-
-After a while Tomiko said, "When your father repaired things, people trusted him because he looked at the thing first."
+"It's only two yen," Tomiko said.
 
 "I know."
 
-"Not because he was your father."
-
-"I know."
-
-"Then perhaps the machine is not him."
-
-"I know."
-
-Tomiko picked up another receipt.
-
-"You keep saying you know things that you have not decided."
-
-Nao laughed.
-
-It was exactly the sort of sentence her father would have made and she hated that.
-
-That night she opened the provider configuration.
-
-She could terminate the identity.
-
-She could export the financial records.
-
-She could delete the local policy and start again.
-
-There was no law forcing her to continue the service. The market made it easy to leave. That was supposed to be the advantage.
-
-She hovered over DELETE.
-
-Then she opened the old notebook.
-
-Good enough is a specification.
-
-Do not buy the fastest thing.
-
-Buy the thing you can keep running.
-
-There was nothing sentimental in it.
-
-That was the problem.
-
-Her father had not left instructions about grief.
-
-He had left operating instructions.
-
-Nao made a new policy.
-
-Do not answer requests in the name of Hasebe Home.
-
-Do not use stored household context for external jobs.
-
-Keep the caution rules.
-
-Keep the safety redirects.
-
-Reset provider reputation.
-
-New provider identity.
-
-No inherited name.
-
-She saved the changes.
-
-The machine asked for a confirmation.
-
-She pressed yes.
-
-For a moment nothing happened.
-
-Then the provider name disappeared.
-
-H-17F2 became NAGISA_03.
-
-The reputation score dropped from 98.7 to 0.0.
-
-The market treated it like a new machine.
-
-That was fair.
-
-It was also strangely painful.
-
-The next request came four minutes later.
-
-A small code test.
-
-No explanation.
-
-The machine accepted.
-
-Then another.
-
-A translation.
-
-Then a request for a second opinion on a household repair.
-
-The machine declined the high-stakes medical category automatically.
-
-For everything else, it worked.
-
-Nao watched the earnings.
-
-¥12.
-
-¥19.
-
-¥7.
-
-It was not much.
-
-The machine was no longer carrying her father's reputation.
-
-It was beginning to build its own.
-
-At midnight, Tomiko came into the spare room.
-
-She was wearing the cardigan she wore when she was cold but did not want to admit it.
-
-"Is it finished?"
-
-"Yes."
-
-"What did you do?"
-
-"I stopped it being Dad."
-
-Tomiko stood beside her.
-
-"Can you do that?"
-
-"I think so."
-
-"Completely?"
-
-Nao looked at the machine.
-
-"I don't know."
-
-Her mother nodded.
-
-"Neither did he."
-
-They went to bed.
-
-Nao stayed awake.
-
-The provider console showed the market moving around her.
-
-A machine in Yokohama was cheaper.
-
-A cluster in Seoul had lower latency.
-
-Someone in Sapporo had better image performance.
-
-NAGISA_03 was still too new to matter.
-
-She switched to the local model.
-
-"Astra."
-
-"Yes."
-
-"Do you know what my father would have done?"
-
-Astra paused.
-
-"That question cannot be answered reliably."
-
-Nao smiled.
-
-"Good."
-
-She shut the console.
-
-In the silence she could hear the fan behind the panel.
-
-It was not an impressive sound.
-
-Just air moving through a machine that had something to do.
-
-On the kitchen counter, the rice cooker began its cycle.
-
-Nao waited for it to finish.
-
-The machine beeped.
-
-She opened the lid before the final beep, as her father had always done.
-
-She stood there with the steam against her face.
-
-In the morning she would probably change the temperature.
-
-She might turn provider mode off.
-
-She might not.
-
-The machine had no opinion about any of this.
-
-It did not know her father was dead.
-
-It did not know there had ever been a man who believed that a reasonable machine was better than an impressive one.
-
-It only knew what was local, what could be bought, what could be sold, what should be refused, and what was still running.
-
-Outside, October rain began again over Setagaya.
-
-Somewhere in Tokyo, someone sent a question.
-
-The market looked for a machine.
-
-This one was awake.`,
+Tomiko filled Nao's cup, and then her own.`,
 } as const;
