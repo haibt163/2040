@@ -2,13 +2,15 @@
 
 ## Working title
 
-**THE REASONABLE MACHINE**
+**WEST WINDOW**
 
 The current canonical manuscript is in `2040.md` and `src/content/story.ts`.
 
 Historical draft: `GPU/06_STORY_PERSISTENCE_OVERHEAD.md`.
 
-Canonical revised manuscript archive: `GPU/07_STORY_THE_REASONABLE_MACHINE.md`.
+Canonical manuscript archive: `GPU/07_STORY_WEST_WINDOW.md`.
+
+Superseded draft (kept for comparison): `GPU/08_SUPERSEDED_THE_REASONABLE_MACHINE.md`.
 
 ## Core premise
 

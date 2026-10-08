@@ -1,4 +1,4 @@
-# 2040 — The Reasonable Machine
+# 2040 — West Window
 
 A cinematic single-page home for the GPU World 2040 speculative-fiction project. The canonical manuscript is maintained in `src/content/story.ts` and `2040.md`.
 
@@ -23,7 +23,8 @@ Open http://localhost:3000.
 - `GPU/PROMPT.md` — current master creative prompt
 - `GPU/05_SOURCE_NOTES.md` — 2026 evidence used to inform the fictional extrapolation
 - `GPU/06_STORY_PERSISTENCE_OVERHEAD.md` — historical draft retained for comparison
-- `GPU/07_STORY_THE_REASONABLE_MACHINE.md` — canonical manuscript archive
+- `GPU/07_STORY_WEST_WINDOW.md` — canonical manuscript archive
+- `GPU/08_SUPERSEDED_THE_REASONABLE_MACHINE.md` — superseded draft, kept for comparison
 
 ## Contributions
 

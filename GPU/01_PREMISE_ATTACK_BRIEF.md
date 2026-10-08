@@ -4,7 +4,7 @@
 
 Build a publication-ready-in-spirit short story set in Japan in 2040.
 
-The current canonical concept is **The Reasonable Machine**.
+The current canonical manuscript is **West Window** (it replaces the provisional draft *The Reasonable Machine*).
 
 This is a major premise revision from the earlier *Persistence Overhead* draft. Do not simply polish the older story.
 

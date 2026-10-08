@@ -4,7 +4,7 @@ You are revising the GPU World 2040 project after a major October 2026 premise u
 
 The canonical manuscript is:
 
-THE REASONABLE MACHINE
+WEST WINDOW
 
 The project files include the current manuscript, historical drafts, source notes, and editorial constraints.
 
