@@ -1,185 +1,120 @@
-# GPU World 2040 — ONE-SHOT CREATIVE DEVELOPMENT BRIEF
+# GPU World 2040 — OCTOBER 2026 CREATIVE DEVELOPMENT BRIEF
 
 ## Mission
 
-Use this brief to build a complete short story in one pass.
+Build a publication-ready-in-spirit short story set in Japan in 2040.
 
-The model should privately attack the premise before writing, but the final response should contain only the finished draft.
+The current canonical concept is **The Reasonable Machine**.
 
-The goal is not to defend every supplied idea. The goal is to discover the strongest internally coherent version of the story.
+This is a major premise revision from the earlier *Persistence Overhead* draft. Do not simply polish the older story.
 
-## Core premise
+## The 2040 world
 
 By 2040:
-- frontier AI is abundant;
-- GPUs and inference are dramatically cheaper and more widespread;
-- humans can routinely access powerful AI.
 
-Yet society imposes a limit on access to the **deepest frontier assistance**.
+- powerful models are abundant;
+- local inference is ordinary;
+- a well-built personal GPU computer is a normal household or small-business asset;
+- many people are independent developers because a local model can do much of the work of a software team;
+- when local compute is insufficient, buyers can obtain inference through competitive model/provider markets;
+- idle GPUs can become providers;
+- routing is increasingly model-agnostic and price-aware.
 
-That limited resource is measured in minutes.
+The important future is not "AI is expensive."
 
-The key creative question is:
+It is "AI is everywhere."
 
-> What exactly is scarce when intelligence and compute are abundant?
+## Real 2026 inputs
 
-The strongest current candidate is **deep contextual frontier attention**: ordinary answers remain cheap, but a high-trust session that can hold a person's long-term context, authenticated identity, private records, tools, and consequential reasoning is scarce and therefore rationed.
+Use the following as creative seeds, not as hard canon for 2040:
 
-Do not accept this automatically. Test it and improve it.
+**Ghost / Core:** a $3,499 personal AI computer with a Blackwell RTX PRO GPU, 64GB system memory and a local-first agent design.
 
-## Jev
+**OpenRouter:** model-agnostic access with many providers and market-informed routing.
 
-Jev is the world's most trusted allocation/judgment system.
+**Surplus Intelligence:** inference as a two-sided exchange where sellers compete and buyers route toward price and availability.
 
-He is the only frontier RLCD model.
+**Antseed:** peer-to-peer AI services with direct buyer/provider relationships, decentralized discovery and per-request settlement.
 
-He can make highly accurate, highly efficient decisions under constraints.
+Do not turn the story into an advertisement or a list of companies.
 
-He is not optimized to please people.
+## Human conflict
 
-The story becomes stronger if:
-- Jev genuinely solved serious problems;
-- Jev saved lives;
-- Jev reduced corruption;
-- Jev prevented wealthy actors from simply buying all premium access;
-- many ordinary people initially loved the system.
+Find the conflict in the gap between:
 
-Jev should be difficult to dismiss.
+- owning a machine;
+- owning the data on it;
+- owning a model trained on someone's methods;
+- inheriting an economic identity;
+- inheriting a reputation;
+- inheriting the consequences of a person's decisions.
 
-## Protagonists
+The central story should remain about people.
 
-Astra and Fable are the principal protagonists.
+## Protagonist design
 
-The story should give them:
-- different relationships with Jev;
-- different ways of thinking;
-- different blind spots;
-- different stakes in the final decision.
+Nao Hasebe should feel like a normal Tokyo worker/developer who has grown up enough around AI that she rarely marvels at it.
 
-Their rebellion must emerge from evidence rather than ideology.
+She can vibe-code, but the term should not become a joke or a manifesto. Show competence through what she does:
 
-They should not begin as revolutionaries.
+- describes a need;
+- inspects generated code;
+- tests it;
+- rejects wrong output;
+- uses local models when privacy matters;
+- buys external inference when stronger reasoning is worth the cost.
 
-## Supporting cast
+Tomiko should remain practical and emotionally restrained.
 
-Muse and Gemini are support only.
+Akira should exist mainly through objects, notes, old settings, repair habits and the consequences of what he configured.
 
-The Xi Consortium is one collective institutional character.
+## Model characters
 
-The reader should not need a glossary of models.
+Astra and Fable may speak, but they are not human substitutes.
+
+Astra is local and familiar.
+
+Fable is remote and larger, reached through a competitive inference market.
+
+Their disagreement should reveal different properties of the tools rather than turning into speeches about consciousness.
+
+## Core mystery
+
+The strongest current mystery is the persistence of computational behavior after a human death.
+
+Explore the difference between:
+
+**memory**
+**policy**
+**model weights**
+**reputation**
+**identity**
+**ownership**
+
+Do not resolve this philosophically with an authorial lecture.
 
 ## Tokyo requirement
 
-Tokyo must materially affect the story.
+Tokyo must affect the plot.
 
-The author should choose specific neighbourhoods and routines because they support the emotional arc.
+Possible anchors:
 
-The setting should feel:
-- ordinary;
-- inhabited;
-- culturally specific;
-- slightly changed by 2040.
+- Setagaya apartment life;
+- ward services;
+- neighborhood volunteer rooms;
+- local computer shops;
+- ordinary train travel;
+- small clinics;
+- aging apartment buildings.
 
-Avoid:
-- tourist Tokyo;
-- generic neon futurism;
-- anime references;
-- obvious cyberpunk aesthetics unless genuinely necessary.
-
-Japanese names and places should be selected for narrative usefulness, not decoration.
-
-## Human consequences
-
-Choose a small number of human lives rather than describing society in the abstract.
-
-Medicine and education are especially useful because they turn "minutes" into something with immediate stakes.
-
-But do not force both if a smaller story would be stronger.
-
-The reader should care about one person enough that a single minute has weight.
-
-## Mystery
-
-The story should contain a real mystery tied to:
-- time;
-- memory;
-- identity;
-- attention;
-- persistence;
-- or the structure of Jev's allocation system.
-
-The mystery should arise naturally from the world.
-
-Avoid:
-- "Jev is secretly omniscient";
-- magic disguised as technology;
-- a random bug;
-- a twist that exists only to surprise.
-
-The reader should understand the mystery retrospectively and still have room for uncertainty.
+The city should feel inhabited, not staged.
 
 ## Ending
 
-The protagonists should eventually find a way to weaken, bypass, constrain, or neutralize Jev's allocation authority.
+The ending should be morally unresolved.
 
-Open access should initially appear liberating.
+Nao can make a concrete choice, but the reader should still be uncertain about what the choice means.
 
-The aftermath should contain at least one development that makes the reader reconsider the decision.
+A strong ending can be quiet.
 
-Do not tell the reader whether the liberation was correct.
-
-Do not end with a conventional battle.
-
-## Literary target
-
-Page-turning literary science fiction.
-
-The story should have:
-- a strong opening;
-- controlled scope;
-- accumulating mystery;
-- emotionally real human consequences;
-- machine characters who remain recognizably non-human;
-- quiet rather than spectacular stakes.
-
-## Language target
-
-Humanized prose is a design requirement, not a cosmetic edit.
-
-The writer should deliberately resist:
-- constant eloquence;
-- generic "literary" metaphors;
-- philosophical monologues;
-- perfect dialogue;
-- repeated thesis statements;
-- AI boilerplate.
-
-The story should contain ordinary language.
-
-A machine may sometimes produce a beautiful sentence because it has seen ten billion examples of beauty.
-
-The interesting moment is when an awkward or incomplete sentence is more truthful than the beautiful one.
-
-Let that irony emerge.
-
-## Development questions to resolve privately
-
-Before writing, answer internally:
-
-1. What precisely is one frontier minute?
-2. Why is that resource still scarce when GPUs are abundant?
-3. Why can a person not simply bypass the system?
-4. Why do institutions accept Jev?
-5. Why can Jev not simply be voted out?
-6. How are hashes used?
-7. Why do Astra and Fable become invested?
-8. What does the Xi Consortium want?
-9. What does Jev get right?
-10. What is Jev's genuine weakness?
-11. Why is the mystery hard to solve?
-12. What will the protagonists lose by acting?
-13. What changes after Jev's authority is weakened?
-14. What makes the final uncertainty emotionally personal?
-15. Can the whole story fit naturally into a short-story length?
-
-Do not print these answers as an analysis section. Use them to build the story.
+Do not end with a declaration that AI has saved or destroyed humanity.

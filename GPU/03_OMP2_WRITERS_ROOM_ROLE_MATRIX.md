@@ -1,55 +1,44 @@
-# GPU World 2040 — ONE-SHOT INTERNAL ROLE MATRIX
-
-This is no longer an independent benchmark round.
-
-For a one-shot generation, the model performs the following roles internally.
+# GPU World 2040 — INTERNAL WRITERS' ROOM ROLE MATRIX
 
 | Internal role | Question | Priority |
 |---|---|---:|
-| Systems critic | Does the rationing mechanism survive scrutiny? | High |
-| Social worldbuilder | Why does the world accept Jev? | High |
-| Literary editor | Does this feel like its own story? | High |
-| AI-character designer | Do Astra/Fable feel like models? | High |
-| Jev counsel | What if Jev is substantially right? | High |
-| Mystery architect | What keeps pages turning? | High |
-| Short-story editor | Can the idea fit 4,000–5,000 words? | High |
-| Anti-cliche editor | What familiar story is this accidentally becoming? | High |
-| Japan/Tokyo editor | Does the location matter beyond scenery? | High |
-| Human-language editor | Does the prose feel observed rather than generated? | High |
+| Systems critic | Does personal compute + open inference survive technical scrutiny? | High |
+| Social worldbuilder | Why do ordinary people trust and use provider markets? | High |
+| Literary editor | Does this feel like its own story rather than an AI essay? | High |
+| Human editor | Are people imperfect, specific and believable? | High |
+| Infrastructure editor | Does the technology stay ordinary and legible? | High |
+| Mystery architect | What persists after the human owner is gone? | High |
+| Japan/Tokyo editor | Does place change the story rather than decorate it? | High |
+| Anti-cliche editor | Is this becoming another AI consciousness story? | High |
+| Compression editor | Can the story remain within roughly 4,000–5,000 words? | High |
 
-## Xi Consortium constraint
+## Technology discipline
 
-Treat the Xi Consortium as one institutional actor.
+Do not make the future depend on a single magical machine.
 
-Internal disagreement may exist, but do not spend story space turning Qwen, Kimi, DeepSeek and GLM into separate protagonists.
+The world should contain many local AI computers and many remote inference providers.
 
-## Tokyo constraint
+Do not make one marketplace omnipotent.
 
-Use a small number of specific Tokyo places.
+OpenRouter, Surplus, Antseed and their successors should be understood as examples of an emerging market architecture, not a single future monopoly.
 
-A location should earn its place by contributing:
-- atmosphere;
-- movement;
-- memory;
-- social structure;
-- or plot.
+## Human-language check
 
-## One-shot rule
+Before output, remove:
 
-Do not stop to ask the user questions unless absolutely necessary.
-
-Make the strongest reasonable creative decisions from the supplied material.
-
-Do not explain those decisions in the final response.
-
-## Final human-language check
-
-Before output, look specifically for:
-- over-polished metaphors;
 - slogans;
-- repetitive rhetorical structures;
-- "AI explains humanity" speeches;
-- dialogue that is too perfectly articulate;
-- paragraphs that sound like essays.
+- explanatory speeches;
+- repeated "not X but Y" constructions;
+- model dialogue that sounds like a philosophy textbook;
+- excessive technological terminology;
+- decorative Japanese references.
 
-Replace them with observed behaviour where possible.
+Prefer:
+
+- objects;
+- receipts;
+- mistakes;
+- awkward conversations;
+- habits;
+- small decisions;
+- specific work.

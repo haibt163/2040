@@ -1,4 +1,4 @@
-# GPU World 2040 — ONE-SHOT STORY DELIVERABLE SPECIFICATION
+# GPU World 2040 — STORY DELIVERABLE SPECIFICATION
 
 ## Deliverable
 
@@ -8,79 +8,42 @@ Return only:
 2. Complete short story
 
 No analysis.
-
 No outline.
-
-No writers'-room report.
-
+No editorial report.
+No writers'-room commentary.
 No character sheet.
-
 No explanation of the creative process.
-
 No alternative endings.
-
-No confidence score.
-
-No claim that the story will win.
 
 ## Target
 
-Approximately 4,000–5,000 words unless the verified current contest rules require a different limit.
+Approximately 4,000–5,000 words.
 
-## Story requirements
+## Required ingredients
 
-The story should contain:
+- Japan, primarily Tokyo, in 2040;
+- powerful AI as ordinary infrastructure;
+- meaningful role for a locally owned GPU computer;
+- an open or competitive inference market;
+- at least one human-scale consequence of that infrastructure;
+- Nao, Tomiko and the memory of Akira;
+- Astra and/or Fable as tools or model presences;
+- a genuine mystery about persistence, identity, reputation, policy or model weights;
+- a concrete protagonist choice;
+- a morally unresolved ending.
 
-- Tokyo, Japan, in 2040 as a meaningful setting;
-- Astra and Fable as the principal protagonists;
-- the Xi Consortium as one institutional AI presence;
-- Muse and/or Gemini only where genuinely useful;
-- Jev as a difficult-to-dismiss opposing intelligence;
-- a coherent scarcity mechanism for frontier-time allocation;
-- at least one human life affected by that system;
-- a genuine mystery;
-- a meaningful protagonist choice;
-- an ending that remains morally unresolved.
+## Prose
 
-## Character requirements
+Natural, restrained, specific, human.
 
-Astra and Fable must have:
-- different model-native traits;
-- different blind spots;
-- different relationships with Jev;
-- a reason to care about the outcome.
+The future should arrive through ordinary life.
 
-Humans must remain imperfect.
+Do not write:
 
-Jev must remain coherent.
-
-The Xi Consortium must remain independent.
-
-## Prose requirements
-
-The language should feel:
-- natural;
-- human;
-- specific;
-- emotionally restrained;
-- occasionally funny;
-- occasionally awkward;
-- never uniformly ornate.
-
-Avoid obvious AI-generated fiction patterns.
-
-## Setting requirements
-
-Japanese names should be believable.
-
-Tokyo locations should be specific.
-
-Local details should be purposeful.
-
-The story should not read like travel writing.
-
-## Ending requirement
-
-Leave the reader with a genuine question.
-
-Do not resolve the morality through authorial explanation.
+- generic cyberpunk;
+- utopian manifestos;
+- "AI is secretly alive" revelations;
+- global apocalypse;
+- global scarcity of frontier intelligence;
+- long technical explanations;
+- model-name fan service.

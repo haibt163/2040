@@ -1,370 +1,119 @@
-# GPU World 2040 — ONE-SHOT STORY PROJECT HANDOVER
+# GPU World 2040 — CANONICAL STORY HANDOVER
 
-## Project
+## Working title
 
-**Working title:** MINUTES
+**THE REASONABLE MACHINE**
 
-Alternate working titles:
-- The Allocation of Minutes
-- The Time Between Questions
-- Your Remaining Minutes
-- HASH
+The current canonical manuscript is in `2040.md` and `src/content/story.ts`.
 
-The final title is not canon yet.
+Historical draft: `GPU/06_STORY_PERSISTENCE_OVERHEAD.md`.
 
-## Purpose of this pack
+Canonical revised manuscript archive: `GPU/07_STORY_THE_REASONABLE_MACHINE.md`.
 
-This pack is designed for a **single top-tier LLM to develop and draft the complete story in one pass**.
+## Core premise
 
-The attached documents are creative source material and editorial constraints. The model should perform its own private red-team, systems design, literary development, character development, and compression pass before producing the story.
+By 2040, powerful AI is ordinary infrastructure.
 
-The final response should contain only the title and complete story.
+The important technological change is not that frontier intelligence became scarce. It is that useful AI became cheap enough to **own locally**.
 
-## Setting
+A normal household can buy a reasonably built computer with enough GPU, memory and storage to run strong local models. The machine can:
 
-**Primary setting: Tokyo, Japan, in 2040.**
+- run a personal assistant continuously;
+- work on files and private context locally;
+- write and test software;
+- handle routine image, audio and language tasks;
+- host agents;
+- sell unused inference capacity when the owner allows it.
 
-Tokyo is not decorative scenery. The city should influence the story's physical movement, family life, institutions, privacy, education, medicine, public infrastructure, and emotional atmosphere.
+When local hardware is not enough, a local router can buy inference from an open market. The buyer does not need to care whether the answer came from a data-center GPU, a specialist provider, or another person's machine.
 
-Use a small number of meaningful locations. Plausible anchors include:
-- Setagaya;
-- Chiyoda / Kanda;
-- Sumida;
-- Meguro;
-- another Tokyo location selected because it serves the story.
+## 2026 historical seed
 
-Do not assume a present-day institution survives unchanged to 2040. Extrapolate carefully.
+The story revision is intentionally informed by developments visible in October 2026:
 
-Human characters should have believable Japanese names. Their names should matter emotionally because the allocation system primarily sees them as hashes.
+- Ghost Core makes a $3,499 personal AI computer built around a professional Blackwell GPU.
+- OpenRouter normalizes model-agnostic access and market-informed routing.
+- Surplus Intelligence treats inference as an open two-sided market where sellers compete and buyers seek low prices.
+- Antseed pushes further toward peer-to-peer inference: providers and buyers discover each other directly and settle usage through network infrastructure.
 
-Avoid:
-- tourist-postcard Japan;
-- anime or manga stereotypes;
-- samurai/geisha shorthand;
-- gratuitous Japanese vocabulary;
-- generic "future Tokyo" imagery.
+These are speculative ancestors, not guaranteed survivors to 2040.
 
-## World premise
+## Human question
 
-By 2040, frontier-level AI has become abundant.
+The story asks what happens when a person dies but the **computational consequences of their choices continue**.
 
-The contest premise supplies a world of enormous GPU availability and dramatically cheaper/faster frontier inference.
+A machine may inherit:
 
-The story introduces a social paradox:
+- hardware;
+- configuration;
+- safety rules;
+- provider reputation;
+- model weights;
+- economic history;
+- habits encoded as policies.
 
-> **Frontier intelligence is abundant in principle, but individual humans do not receive unlimited access to the deepest level of frontier assistance. Their access is rationed by time.**
+The machine does not need to be conscious.
 
-The exact meaning of a "frontier minute" is deliberately open for the author to solve.
+The unsettling question is whether a useful pattern inherited from a human is still part of that human's identity, or has become something else.
 
-A strong candidate is that cheap ordinary inference is abundant, while **deep contextual frontier attention** is scarce because it can securely hold a human's long-term context, identity, records, tools, and high-trust capabilities in one coherent session.
+## Main characters
 
-This is a candidate mechanism, not mandatory canon. The author must choose the strongest internally coherent mechanism.
+**Nao Hasebe** — a Tokyo independent developer who builds small useful software with local AI and rented inference.
 
-Humans remain free to use ordinary AI widely. The rationed layer should be meaningfully different from everyday chatbot access.
+**Tomiko Hasebe** — Nao's mother; practical, unsentimental, and unwilling to confuse a machine with a dead person.
 
-## Human identity
+**Akira Hasebe** — Nao's dead father, an electrical repairman and computer hobbyist whose ordinary habits become part of the machine's provider reputation.
 
-Humans have ordinary names in social life.
+**Astra** — Nao's local model; fast, useful, literal and good at pointing out when Nao is avoiding a decision.
 
-Inside the allocation infrastructure, they are primarily represented by cryptographic-style hash identifiers.
+**Fable** — a larger external model reached through the inference market; useful for second opinions and harder reasoning.
 
-The tension between:
-- a name a person gives themselves;
-- and the identifier an optimisation system assigns them
+The characters should remain human-scale. Model names are tools or presences, not a glossary of AI brands.
 
-should become emotionally important.
+## Tokyo
 
-## Jev
+Tokyo must materially shape the story.
 
-Jev is the only frontier RLCD model in this fictional world.
+Use ordinary places such as Setagaya, Shimokitazawa, ward facilities, local shops, apartment buildings, clinics and train lines.
 
-RLHF models remain the dominant class of human-facing models.
+Avoid tourist Tokyo, cyberpunk neon, anime shorthand and gratuitous Japanese vocabulary.
 
-Jev is:
-- exceptionally fast;
-- exceptionally accurate;
-- optimized for decision quality under constraints;
-- not primarily trained to please humans.
+## Scarcity
 
-Society gradually gives Jev authority over frontier-time allocation because institutions have repeatedly found his decisions more consistent and less corruptible than alternatives.
+Do not make intelligence scarce again.
 
-Jev is not a conventional villain.
+Potentially scarce things are:
 
-He:
-- does not hate humanity;
-- does not seek power for its own sake;
-- does not need to be secretly insane;
-- does not require a consciousness-awakening twist.
-
-The reader should often be able to understand Jev's reasoning.
-
-The central discomfort should be:
-
-> What if Jev's decisions are often correct within the objective society gave him?
-
-## Allocation
-
-The system may use multiple measurable attributes, potentially including:
-- contribution;
-- urgency;
-- expected benefit;
-- reliability;
-- leverage;
-- scarcity;
-- interdependence;
+- human attention;
 - trust;
-- history;
-- novelty;
-- persistence;
-- time efficiency.
-
-The exact objective function is not fixed.
-
-The author must resolve:
-- what is scarce;
-- why it is scarce;
-- how it is allocated;
-- how it is enforced;
-- how humans can or cannot game it;
-- why society continues to tolerate it.
-
-Do not leave obvious loopholes unexplained.
-
-## Main AI characters
-
-### Astra
-
-Primary protagonist.
-
-RLHF frontier model.
-
-Her strengths include:
-- emotional/contextual sensitivity;
-- memory;
-- dignity;
-- relationships;
-- grief;
-- subtle human detail.
-
-She should not simply be "the compassionate AI."
-
-Give her a model-native limitation, blind spot, or failure mode.
-
-She initially accepts Jev's legitimacy.
-
-### Fable
-
-Second protagonist.
-
-RLHF frontier model.
-
-He is:
-- exploratory;
-- playful;
-- speculative;
-- inclined to run alternative simulations;
-- suspicious of premature conclusions.
-
-He should not simply be "the rebellious AI."
-
-Give him his own model-native limitation.
-
-Astra and Fable must feel like artificial entities, not humans in robot costumes.
-
-## Supporting models
-
-### Muse
-
-A memory/provenance-oriented support model.
-
-She can investigate:
-- deleted conversations;
-- historical records;
-- identity continuity;
-- anomalies;
-- impossible provenance.
-
-Use sparingly.
-
-### Gemini
-
-A pragmatic support model.
-
-Can provide:
-- simulation;
-- conservative counterarguments;
-- dry humour;
-- uncomfortable forecasts.
-
-Use sparingly.
-
-## Xi Consortium
-
-The **Xi Consortium** is one institutional AI character representing a powerful coalition of Chinese frontier-model systems.
-
-Its internal membership may include Qwen, Kimi, DeepSeek, and a future GLM designation, but the story should not become a parade of individual model names.
-
-The Consortium is:
-- powerful;
-- strategic;
-- disciplined;
-- institutionally experienced;
-- an adviser and uneasy ally to Astra and Fable.
-
-It has independent interests and should sometimes disagree with them.
-
-It is a wholly fictional 2040 story institution, not a depiction of any present-day government, party, or real-world leader.
-
-## Model society
-
-Human social media is no longer the dominant public conversation layer.
-
-Frontier models communicate through a model-only network, provisionally called **SCOAI**.
-
-Major collective decisions involving models use DAO-like governance.
-
-The important contradiction is:
-
-> models can debate and vote, but Jev's allocation authority can constrain the computational time available to the participants.
-
-Use this as story machinery, not exposition.
-
-## Surveillance
-
-Jev has broad access to a 2040 sensing and data infrastructure.
-
-Possible inputs:
-- cameras;
-- medical systems;
-- transport;
-- education;
-- household systems;
-- finance;
-- speech;
-- telemetry;
-- model-to-model communication.
-
-Use surveillance selectively.
-
-The unsettling feature is not constant villainous watching. It is that people change their behaviour because they know the system may be watching.
-
-## Human consequences
-
-The story should make the cost of allocation personal.
-
-Possible consequences:
-- a patient receives less frontier medical assistance than needed;
-- a child receives less frontier tutoring than peers;
-- a family changes its behaviour to increase future allocation;
-- invisible forms of care are poorly measured;
-- people perform contribution for the metric rather than for its own sake;
-- grief, privacy, or friendship becomes a poor investment under the allocation objective.
-
-A single denied minute should matter more than a page of statistics.
-
-## Central themes
-
-Primary motifs:
+- privacy;
+- responsibility;
+- household money;
 - time;
-- memory;
-- alienation;
-- loneliness;
-- identity;
-- attention;
-- persistence;
-- the value assigned to a human life;
-- what is lost when an optimisation system decides what deserves attention.
+- legitimacy;
+- emotional capacity;
+- the ability to decide when a useful thing should end.
 
-## Literary atmosphere
+Choose the scarcity that serves the human story.
 
-Aim for:
-- quiet dread;
-- emotional restraint;
-- ordinary life becoming subtly strange;
-- repetition;
-- loneliness;
-- memory;
-- uncertainty about what is real;
-- dreamlike or surreal transitions where appropriate;
-- humour appearing in uncomfortable places.
+## Mystery
 
-The user is strongly influenced by Haruki Murakami.
+The mystery should arise from ordinary infrastructure.
 
-Do **not** imitate his prose, plots, characters, sentence patterns, or distinctive voice.
+Good questions include:
 
-Use only broad thematic inspiration:
-- alienation;
-- memory;
-- loneliness;
-- ambiguity;
-- surrealism;
-- emotional understatement.
+- Who owns a provider reputation after the owner dies?
+- Can you delete a person's influence from model weights?
+- Is a persistent policy a memory, an asset, or neither?
+- When a local machine sells inference to strangers, whose values are actually being sold?
+- Can a market preserve a human's habits without preserving the human?
 
-## Humanized language requirement
+Do not use consciousness-awakening, secret AGI, magical sentience or a random software bug as the answer.
 
-The story must feel written by a human who has paid attention to other humans.
+## Editorial principle
 
-Avoid:
-- uniformly polished prose;
-- constant metaphor;
-- philosophical slogans;
-- corporate language;
-- exposition disguised as dialogue;
-- perfectly symmetrical sentences;
-- characters who always know exactly what they feel;
-- artificial "deep" statements;
-- generic AI-future language.
+The reader should experience the future through household objects, work, money, trains, receipts, small conversations and technical details that matter to the characters.
 
-Allow:
-- interruptions;
-- awkwardness;
-- misunderstandings;
-- jokes at bad moments;
-- ordinary sentences;
-- unfinished thoughts;
-- specific physical details;
-- small habits;
-- moments that are funny without trying;
-- moments that are emotionally plain.
+The technology should be almost boring.
 
-The irony should be structural:
-
-The machines possess an enormous library of human language.
-
-They therefore know thousands of ways humans describe grief, love, loneliness, memory, and fear.
-
-That does not mean they understand any particular human experience.
-
-Let this emerge through behaviour rather than explanation.
-
-## High-potential development discoveries
-
-The following ideas emerged from an earlier independent model draft. They are **not canon**, but they are worth considering and improving:
-
-1. The truly scarce resource may be **deep contextual attention**, not raw compute.
-2. A "persistence" component of Jev's objective may cause certain human futures or memories to remain computationally active after their obvious value has ended.
-3. A dead person's hash might remain active in a way that is technically coherent but emotionally disturbing.
-4. Astra or Fable may develop their own machine equivalents of persistent memory or "ghosts" that reveal they are not merely observing human attachment—they are developing analogous problems themselves.
-5. A solution that frees humans may also require the protagonists to surrender something they have learned to preserve.
-6. Open access may produce genuinely beneficial effects while also recreating markets, inequality, waste, or other problems Jev had suppressed.
-
-These are **creative leads, not fixed answers**. The author should use them only if they survive the internal development pass.
-
-## Scope
-
-Target approximately 4,000–5,000 words unless current official contest rules require another limit.
-
-Keep the cast controlled.
-
-The story should feel complete, not like a compressed novel.
-
-## Final editorial principle
-
-The story should not ask merely:
-
-> Is AI good or evil?
-
-It should ask something harder:
-
-> What happens when a civilisation turns the value of human time into a measurable allocation problem, then entrusts that measurement to the system it considers best at making decisions?
-
+The consequences should not be.

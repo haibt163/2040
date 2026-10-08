@@ -1,4 +1,6 @@
-# THE REASONABLE MACHINE
+# The Reasonable Machine
+
+*October 2026 canonical manuscript revision — GPU World 2040.*
 
 THE REASONABLE MACHINE
 
@@ -1134,12 +1136,8 @@ This one was awake.
 
 ---
 
-## Revision note
+## Editorial intent
 
-This is the October 2026 canonical manuscript revision for the GPU World 2040 project.
+The story deliberately treats powerful AI as ordinary infrastructure rather than as a scarce resource. The technological hinge is a "reasonable machine": enough locally owned GPU compute for everyday work, combined with open inference markets for overflow, specialized or larger reasoning.
 
-The story now treats powerful AI as ordinary infrastructure. A reasonably equipped personal GPU computer provides useful local intelligence, while open inference markets supply remote, specialized or larger computation.
-
-The central human conflict is persistence of **compute, policy and reputation** after a human owner dies. The machine is not a digital resurrection. Its unsettling quality comes from a more ordinary fact: markets can preserve the consequences of a person's choices long after the person has stopped making them.
-
-The current 2026 real-world developments that informed this revision are documented in GPU/05_SOURCE_NOTES.md. They are speculative inputs, not claims about the actual 2040 market.
+The mystery and emotional conflict come from persistence of **compute, policy and reputation** after a human owner dies. The machine is not a digital resurrection and does not become conscious. Its unsettling quality comes from a more ordinary fact: markets can preserve the consequences of a person's choices long after the person has stopped making them.
