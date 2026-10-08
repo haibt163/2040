@@ -47,11 +47,11 @@ The how-to jobs went to a small model he had tuned himself on thirty years of hi
 
 In the notebook in the desk drawer, under the glass jars of screws, the entry for November 2035 was three lines. Provider mode on. Terms: keep nothing. Ask T. about the electricity. There was a tick beside the last one, which meant he had. Elsewhere in the notebook he had written WAIT beside every price over ten thousand yen, and on the page where he had copied out the cost of one of the first little home AI boxes, $3,499, it was underlined twice. Two pages on, in different ink, was the list of parts he had bought instead.
 
-When she opened the provider page the score was 98.7, which she remembered taking for a mistake. Nine buyers held pins on it, which was the market's word for a standing preference: a buyer's agent told to try this provider first and stay with it unless something went wrong. Eight were what she would have guessed. The rewriting tool the ward volunteers used, a translation shop, the intake forms of the clinic by the station, a few agents that belonged to people whose names the market did not show. The ninth was marked INDIVIDUAL. It had pinned West Window on 14 March of this year, and since then it had sent one or two jobs a night, always between two and three in the morning. Mostly a photograph of a page and a request to say what the page said. Sometimes a how-to. Four times last month the category had been medical, information only, which meant the machine had said what it always said and told the buyer who to call. Each job cost two or three yen. The buyer was a string beginning 3C9A, its wallet was a ward-issued one of the senior kind, topped up a thousand yen at a time on the fifteenth of every second month, and last month it had left a review, a single word. Fine.
+When she opened the provider page the score was 98.7, which she remembered taking for a mistake. Nine buyers held pins on it, which was the market's word for a standing preference: a buyer's agent told to try this provider first and keep trying it unless the provider gave it a reason not to. Eight were what she would have guessed. The rewriting tool the ward volunteers used, a translation shop, the intake forms of the clinic by the station, a few agents that belonged to people whose names the market did not show. The ninth was marked INDIVIDUAL. It had pinned West Window on 14 March of this year, and since then it had sent one or two jobs a night, always between two and three in the morning. Mostly a photograph of a page and a request to say what the page said. Sometimes a how-to. Four times last month the category had been medical, information only, which meant the machine had said what it always said and told the buyer who to call. Each job cost two or three yen. The buyer was a string beginning 3C9A, its wallet was a ward-issued one of the senior kind, topped up a thousand yen at a time on the fifteenth of every second month, and last month it had left a review, a single word. Fine.
 
 Half of Setagaya got its pension on the fifteenth. Nao noted that and went on to the next thing.
 
-So the money went round in a loop: out of some old person's wallet, into her father's provider, and, less the market's cut, into the account she paid for rice from.
+So the money went round: out of some old person's wallet, into her father's provider, and, less the market's cut, into the account she paid for rice from.
 
 She asked Astra what was in the jobs.
 
@@ -133,7 +133,7 @@ Fujimoto-san was at the window with a paper cup. He was seventy-nine, had spent 
 
 "I haven't decided."
 
-"My wife's tablets," he said, as if that were an answer, and in a way it was. "Last spring. The label was too small for me, so I photographed it and asked the room's tool to read me the dose. Every other thing I'd ever asked gave me a number. This one said it couldn't read the strength on that label, that I should take the box to the pharmacy, and that the figure I'd got elsewhere looked high for her. So I took the box back. They had printed the wrong strength." He drank some of his tea. "The pharmacy was very quiet about it."
+"My wife's tablets." He said it as if it were an answer, and in a way it was. "Last spring. The label was too small for me, so I photographed it and asked the room's tool to read me the dose. Every other thing I'd ever asked gave me a number. This one said it couldn't read the strength on that label, that I should take the box to the pharmacy, and that the figure I'd got elsewhere looked high for her. So I took the box back. They had printed the wrong strength." He drank some of his tea. "The pharmacy was very quiet about it."
 
 "That's what it does."
 
@@ -203,7 +203,7 @@ Tomiko was at the table in her cardigan with a cup of hojicha and her phone face
 
 "I need your seal. It's from the registry, about the thing Dad had with the computer. It has to be signed by both of us by the end of the month, and I know you don't like it on the screen."
 
-"I don't like the screen for anything after midnight." Tomiko took the form out of the sleeve and held it at arm's length, then put it down and brought her glasses down onto her nose, which she had been avoiding. "Why is my name a number?"
+"I don't like the screen for anything after midnight." Tomiko took the form out of the sleeve and held it at arm's length, then put it down and brought her glasses down onto her nose. "Why is my name a number?"
 
 "It isn't. It's an identifier. The registry doesn't go by names. There are two Hasebes at this address, so it uses that."
 
@@ -255,7 +255,7 @@ Tomiko turned her cup a quarter turn on its saucer. "That was him."
 
 "I could change it. The setting. I'm allowed. If I did, everyone who uses it would get a notice that the terms had changed."
 
-"Would they." It was not a question.
+"Would they."
 
 "Yes."
 
