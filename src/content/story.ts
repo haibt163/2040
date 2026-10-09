@@ -27,7 +27,7 @@ On Sunday mornings the fan in the spare room went up a tone around seven and sta
 
 The apartment was on the third floor of a building from the eighties, on a side street near Kamimachi, close enough to the Setagaya line that the window glass hummed whenever one of its two-car trains went through. Tomiko had lived there for forty-one years. She was seventy-eight, kept the radio on in the kitchen for the weather, and had begun to come down the hall in the mornings with one hand on the wall, which she said was to check that the wall was still there.
 
-The machine lived under the desk in the six-mat room at the end of that hall, where Nao worked. Her father had built it in 2035 out of parts, mostly second-hand: a case that had once held the controller of a vending machine, a graphics card he had waited eight months to find at the right price, and a power supply rated for twice what everything else could draw. The power supply was the reason it was still alive. Friends of Nao's who had bought the sealed kind, the ones that came in a nice box and were meant to be replaced every five or six years like a mattress, were on their second. His still wore its masking-tape labels in his square handwriting. FAN — CHECK IN MARCH. DO NOT MOVE. Over the status light on the back was a third strip of tape that was hers, because the light blinked.
+The machine lived under the desk in the spare room at the end of that hall, a six-mat room where Nao worked. Her father had built it in 2035 out of parts, mostly second-hand: a case that had once held the controller of a vending machine, a graphics card he had waited eight months to find at the right price, and a power supply rated for twice what everything else could draw. The power supply was the reason it was still alive. Friends of Nao's who had bought the sealed kind, the ones that came in a nice box and were meant to be replaced every five or six years like a mattress, were on their second. His still wore its masking-tape labels in his square handwriting. FAN — CHECK IN MARCH. DO NOT MOVE. Over the status light on the back was a third strip of tape that was hers, because the light blinked.
 
 It ran what everybody's machine ran: a household model she called Astra because the name had been free, some smaller ones for photographs and speech, and whatever she happened to be building. When a job was too big for it, the router bought the missing part from the market. That morning she had a database migration she didn't trust, and she let the router send the plan out. It went to a provider in Kobe, cost eleven yen, and came back before her tea cooled with the news that she was about to drop a column she would need in March. Its advice about the index was wrong. She checked it against a copy of her data, saw why, and fixed it herself. This was most of the work now. Nobody called it programming or anything else. You said what you wanted, read what came back with suspicion, ran it, and threw out the parts that looked right and weren't.
 
@@ -35,7 +35,7 @@ The other half of what the machine did was sell. Her father had switched on prov
 
 * * *
 
-The notice came on Tuesday. Her mail agent filed it under Administrative with a note saying it recommended reading today, and it had been written, like most of what the registry sent, by someone who did not expect to be asked what it meant.
+The notice came on Tuesday. Her mail agent filed it under Administrative with a note saying it recommended reading today, and the notice had been written, like most of what the registry sent, by someone who did not expect to be asked what it meant.
 
 Provider identity HASEBE HOME / WEST WINDOW, 17F2. Registered owner confirmed deceased by ward registry sync. Succession attestation required by 31 October. Options: succeed, transfer, retire. Absent attestation the identity will be archived on 1 November. Reputation history is not retained for archived identities. Buyers holding standing relationships will be released to default routing.
 
@@ -47,7 +47,7 @@ The how-to jobs went to a small model he had tuned himself on thirty years of hi
 
 In the notebook in the desk drawer, under the glass jars of screws, the entry for November 2035 was three lines. Provider mode on. Terms: keep nothing. Ask T. about the electricity. There was a tick beside the last one, which meant he had. Elsewhere in the notebook he had written WAIT beside every price over ten thousand yen, and on the page where he had copied out the cost of one of the first little home AI boxes, $3,499, it was underlined twice. Two pages on, in different ink, was the list of parts he had bought instead.
 
-When she opened the provider page the score was 98.7, which she remembered taking for a mistake. Nine buyers held pins on it, which was the market's word for a standing preference: a buyer's agent told to try this provider first and keep trying it unless the provider gave it a reason not to. Eight were what she would have guessed. The rewriting tool the ward volunteers used, a translation shop, the intake forms of the clinic by the station, a few agents that belonged to people whose names the market did not show. The ninth was marked INDIVIDUAL. It had pinned West Window on 14 March of this year, and since then it had sent one or two jobs a night, always between two and three in the morning. Mostly a photograph of a page and a request to say what the page said. Sometimes a how-to. Four times last month the category had been medical, information only, which meant the machine had said what it always said and told the buyer who to call. Each job cost two or three yen. The buyer was a string beginning 3C9A, its wallet was a ward-issued one of the senior kind, topped up a thousand yen at a time on the fifteenth of every second month, and last month it had left a review, a single word. Fine.
+When she opened the provider page the score was 98.7, a number she had taken for a mistake the first time she saw it. Nine buyers held pins on it, which was the market's word for a standing preference: a buyer's agent told to try this provider first and keep trying it unless the provider gave it a reason not to. Eight were what she would have guessed. The rewriting tool the ward volunteers used, a translation shop, the intake forms of the clinic by the station, a few agents that belonged to people whose names the market did not show. The ninth was marked INDIVIDUAL. It had pinned West Window on 14 March of this year, and since then it had sent one or two jobs a night, always between two and three in the morning. Mostly a photograph of a page and a request to say what the page said. Sometimes a how-to. Four times last month the category had been medical, information only, which meant the machine had said what it always said and told the buyer who to call. Each job cost two or three yen. The buyer was a string beginning 3C9A, with a ward-issued wallet of the senior kind, topped up a thousand yen at a time on the fifteenth of every second month. Last month it had left a review, a single word. Fine.
 
 Half of Setagaya got its pension on the fifteenth. Nao noted that and went on to the next thing.
 
@@ -65,7 +65,7 @@ She asked Astra what was in the jobs.
 
 "Yes. You would publish a new version. Pinned buyers would be told the terms had changed and asked whether to stay. That buyer would see it."
 
-While she was thinking about that, a message arrived from a firm called Yorozu Continuity. Registry notices were public, and there were people who read them for a living. We would be honoured to keep your late father's name in service, it said. She would not need to do anything. They offered thirty-one thousand yen a month for the identity and its history, and mentioned that a score like his was rare in household categories. Nao read the figure twice. It was more than the machine had earned in all the time she'd owned it.
+While she was thinking about that, a message arrived from a firm called Yorozu Continuity. Registry notices were public, and there were people who read them for a living. We would be honoured to keep your late father's name in service, it said. She would not need to do anything. They offered thirty-one thousand yen a month for the identity and its history, and mentioned that a score like his was rare in household categories. Nao read the figure twice. One month of it was more than the machine earned in a year.
 
 She sent the registry's terms and the offer out to Fable at a cost of fourteen yen. Fable was a routing profile, a name left over from the years when it had pointed at one particular large model; now it pointed at whatever was best and cheapest and still answered to the name, and she had stopped asking which. It came back in six lines. Succession carried the name, the score, the terms, the pins and the model in BENCH. A successor could amend the terms going forward but could not recover anything retained before, which was nothing. Transfer to a continuity operator carried the name and the score and put the operator's terms in place of the old ones; pinned buyers would be notified. Most standing agents were configured to accept ownership changes automatically.
 
@@ -111,7 +111,7 @@ The pin was dated the next day.
 
 She asked Astra whether she should be worried about her mother.
 
-"I do not have grounds to say," Astra said. "I can tell you what I have. She has asked me nothing since March. A person who stops asking has either stopped needing to or gone somewhere else. I cannot tell which."
+"I do not have grounds to say," Astra said. "I can tell you what I have. She has asked me nothing since March. Either she stopped needing to, or she is asking somewhere else. I cannot tell which."
 
 "That isn't very helpful."
 
@@ -277,7 +277,7 @@ The refrigerator ticked. Somewhere under the floor a pipe knocked twice and thou
 
 Neither of them said anything for a while. Tomiko poured, though the cups were still full enough, and then spoke to the teapot.
 
-"It keeps telling me to go to the clinic. It's very repetitive. I said my legs feel like wet sand in the morning, like a car in the snow that won't start, and it said that was something to tell a doctor, and that it couldn't see my legs." She almost smiled. "It was very firm about not seeing them."
+"It keeps telling me to go to the clinic. It's very repetitive. I said my legs feel like wet sand in the morning, and it said that was something to tell a doctor, and that it couldn't see my legs." She almost smiled. "It was very firm about not seeing them."
 
 "Did you go?"
 
