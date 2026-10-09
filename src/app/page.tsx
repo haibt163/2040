@@ -23,10 +23,6 @@ export default function Home() {
     [],
   );
 
-  const manuscriptTitle = paragraphs[0] === story.title.toUpperCase()
-    ? paragraphs[0]
-    : story.title.toUpperCase();
-
   const bodyParagraphs = paragraphs[0] === story.title.toUpperCase()
     ? paragraphs.slice(1)
     : paragraphs;
@@ -38,12 +34,12 @@ export default function Home() {
       <header className="topbar">
         <a className="brand" href="#top" aria-label="2040 story home">
           <span className="brand-mark">二〇四〇</span>
-          <span>FICTION / 01</span>
+          <span>Fiction</span>
         </a>
 
         <div className="topbar-meta">
-          <span>TOKYO · SETAGAYA</span>
-          <span>OCTOBER 2040</span>
+          <span>Tokyo · Setagaya</span>
+          <span>October 2040</span>
         </div>
       </header>
 
@@ -54,11 +50,10 @@ export default function Home() {
           className="hero-inner"
           style={{ scale: heroScale, opacity: heroOpacity }}
         >
-          <p className="eyebrow">{story.label} · TOKYO / 2040</p>
+          <p className="eyebrow">{story.label}</p>
 
           <h1 id="hero-title" className="hero-title">
-            <span>WEST</span>
-            <span>WINDOW</span>
+            West Window
           </h1>
 
           <div className="hero-rule" />
@@ -67,15 +62,10 @@ export default function Home() {
             <p className="hero-dek">{story.dek}</p>
 
             <a className="hero-link" href="#story">
-              <span>READ THE STORY</span>
+              <span>Read the story</span>
+              <span className="hero-link-time">{story.estimatedMinutes} min</span>
               <span aria-hidden="true">↓</span>
             </a>
-          </div>
-
-          <div className="hero-meta" aria-label="Story details">
-            <span>{story.estimatedMinutes} MIN READ</span>
-            <span>{new Intl.NumberFormat("en-US").format(wordCount)} WORDS</span>
-            <span>LONG-FORM FICTION</span>
           </div>
         </motion.div>
       </section>
@@ -88,40 +78,42 @@ export default function Home() {
         <div className="story-layout">
           <aside className="story-aside">
             <h2 id="story-section-title" className="section-label section-heading">
-              01 / STORY
+              01 / Story
             </h2>
 
             <div className="sticky-note">
-              <span>READING TIME</span>
+              <span>Reading time</span>
               <strong>{story.estimatedMinutes} min</strong>
               <span>{new Intl.NumberFormat("en-US").format(wordCount)} words</span>
             </div>
           </aside>
 
           <article className="story-copy" aria-label={story.title}>
-            <header className="manuscript-opening">
-              <p className="manuscript-label">CANONICAL MANUSCRIPT</p>
-              <p className="manuscript-title" aria-hidden="true">
-                {manuscriptTitle}
-              </p>
-              <div className="manuscript-rule" />
-            </header>
-
             <div className="story-body">
-              {bodyParagraphs.map((paragraph, index) => (
-                <motion.p
-                  key={String(index) + "-" + paragraph.slice(0, 12)}
-                  initial={{ opacity: 0, y: 16 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "0px 0px -50px" }}
-                  transition={{
-                    duration: 0.65,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                >
-                  {paragraph}
-                </motion.p>
-              ))}
+              {bodyParagraphs.map((paragraph, index) =>
+                paragraph.trim() === "* * *" ? (
+                  <div
+                    key={String(index) + "-break"}
+                    className="scene-break"
+                    role="separator"
+                  >
+                    <span aria-hidden="true">* * *</span>
+                  </div>
+                ) : (
+                  <motion.p
+                    key={String(index) + "-" + paragraph.slice(0, 12)}
+                    initial={{ opacity: 0, y: 16 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "0px 0px -50px" }}
+                    transition={{
+                      duration: 0.65,
+                      ease: [0.22, 1, 0.36, 1],
+                    }}
+                  >
+                    {paragraph}
+                  </motion.p>
+                ),
+              )}
             </div>
           </article>
         </div>
@@ -134,12 +126,11 @@ export default function Home() {
       >
         <div className="closing-layout">
           <h2 id="colophon-title" className="section-label section-heading">
-            02 / COLOPHON
+            02 / Colophon
           </h2>
 
           <div className="closing-copy">
             <p className="closing-mark" aria-hidden="true">西窓</p>
-            <p className="closing-meta">TOKYO · JAPAN · OCTOBER 2040</p>
             <div className="closing-line" />
             <p className="tiny">A speculative story about memory, machinery, and what remains useful after a person is gone.</p>
           </div>
@@ -147,7 +138,7 @@ export default function Home() {
       </section>
 
       <footer className="footer section-pad">
-        <span>2040 / JAPAN</span>
+        <span>West Window · 2040</span>
 
         <div className="footer-right">
           <span>© {new Date().getFullYear()}</span>
@@ -186,7 +177,7 @@ export default function Home() {
             </a>
           </div>
 
-          <a href="#top">BACK TO TOP ↑</a>
+          <a href="#top">Back to top ↑</a>
         </div>
       </footer>
     </main>

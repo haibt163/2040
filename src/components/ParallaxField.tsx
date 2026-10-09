@@ -48,7 +48,6 @@ export function ParallaxField() {
 
       <motion.div className="hero-glyph" style={{ x: glyphX, y: glyphY }}>
         <span className="hero-glyph-jp">二〇四〇</span>
-        <span className="hero-glyph-sub">TOKYO / JAPAN</span>
       </motion.div>
     </div>
   );
