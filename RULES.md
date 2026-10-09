@@ -3,7 +3,7 @@
 1. The reader comes before the effect. Motion must support reading, orientation, or atmosphere.
 2. The manuscript is the hero asset. Never let decorative UI compete with the story.
 3. Keep the visual language minimal: near-black, warm paper, restrained rules, sparse technical markers, generous whitespace.
-4. Use high-quality Japanese typefaces with excellent Latin glyphs. Prefer `Noto Sans JP` for utility/body UI and `Noto Serif JP` for literary emphasis.
+4. Typography: `Newsreader` for English reading text and the hero title, `Noto Serif JP` for Japanese glyphs and literary emphasis, `Noto Sans JP` for utility labels. Keep UI labels at 12px or larger.
 5. Preserve responsive behavior from narrow phones through large desktop displays.
 6. Respect `prefers-reduced-motion` and provide a usable static experience.
 7. Avoid gradients that look like generic SaaS marketing. Atmospheric light is acceptable when subtle.
